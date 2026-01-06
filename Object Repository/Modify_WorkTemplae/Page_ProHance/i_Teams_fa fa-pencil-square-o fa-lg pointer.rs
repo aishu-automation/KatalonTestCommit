@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Teams_fa fa-pencil-square-o fa-lg pointer</name>
+   <tag></tag>
+   <elementGuidId>5e1d6f62-b484-45f1-8e51-8176892a98cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='CommonDataTableId']/tbody/tr/td/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-pencil-square-o.fa-lg.pointer</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;   Infra Team Infra Work Template Mon, Tue, Wed, Thu, Fri 1&quot;i] >> internal:role=link >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>7808d16c-b50a-491c-a974-36aa461b7cb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-pencil-square-o fa-lg pointer</value>
+      <webElementGuid>dc86ff95-ccd8-43fa-b5fe-1e67e2d02bdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Modify</value>
+      <webElementGuid>73b1c8cd-271f-4081-9142-1c4d1ebc8d47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CommonDataTableId&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;text-center label-center&quot;]/a[@class=&quot;editUser modify-action colour-black&quot;]/i[@class=&quot;fa fa-pencil-square-o fa-lg pointer&quot;]</value>
+      <webElementGuid>78af9706-c2e0-43ab-9e90-e3e897f539fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Modify_WorkTemplae/Page_ProHance/iframe_Hierarchy Mapping_contentFrame</value>
+      <webElementGuid>9d41feab-13e2-4b48-a037-3d2607f7de93</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='CommonDataTableId']/tbody/tr/td/a/i</value>
+      <webElementGuid>10f61d9f-1233-4789-8414-2a815bb5c4cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>52040c10-9a12-4d98-882e-3feda4919e64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[@title = 'Modify']</value>
+      <webElementGuid>d9cbaf9d-b270-4001-a71e-b3a13b14413b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

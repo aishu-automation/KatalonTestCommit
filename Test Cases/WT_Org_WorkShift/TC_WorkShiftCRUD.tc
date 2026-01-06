@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_WorkShiftCRUD</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1435b01b-8acd-49e3-a952-6f40aa4f84a0</testCaseGuid>
+</TestCaseEntity>

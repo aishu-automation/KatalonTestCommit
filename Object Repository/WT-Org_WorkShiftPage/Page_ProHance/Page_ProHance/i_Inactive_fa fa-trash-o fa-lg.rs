@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Inactive_fa fa-trash-o fa-lg</name>
+   <tag></tag>
+   <elementGuidId>056c009f-3d98-4c3e-8079-ded456c744bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='CommonDataTableId']/tbody/tr[2]/td/a[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.even > td.text-center.padding-Right-8px > a.editUser.delete-action.margin-Left-5px.colour-black > i.fa.fa-trash-o.fa-lg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;   add_mod 00:00 13:00 Mon 13:00 32 &quot;i] >> internal:role=link >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>c6e309f3-8eeb-426b-a0a9-78b025a99cdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-trash-o fa-lg</value>
+      <webElementGuid>ce198a8e-94d9-43b3-b06e-319fa5dae9d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Delete</value>
+      <webElementGuid>8a6b52a4-299d-4521-beb3-15ac289f9fbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CommonDataTableId&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[@class=&quot;text-center padding-Right-8px&quot;]/a[@class=&quot;editUser delete-action margin-Left-5px colour-black&quot;]/i[@class=&quot;fa fa-trash-o fa-lg&quot;]</value>
+      <webElementGuid>4392125a-314d-4af7-9411-6b7512b2e37c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/WT-Org_WorkShiftPage/Page_ProHance/Page_ProHance/iframe_Hierarchy Mapping_contentFrame</value>
+      <webElementGuid>93cebb98-19c8-4f67-8e33-f48351324ea3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='CommonDataTableId']/tbody/tr[2]/td/a[2]/i</value>
+      <webElementGuid>8e862fe2-952b-4ed1-b3c6-aa004ad670c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/a[2]/i</value>
+      <webElementGuid>08b2dca2-189c-4b13-89d3-bb10327bcdee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[@title = 'Delete']</value>
+      <webElementGuid>c1569756-8826-4829-b087-79f400c271fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

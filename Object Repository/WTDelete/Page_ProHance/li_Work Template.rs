@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Work Template</name>
+   <tag></tag>
+   <elementGuidId>b88762d4-dc24-4a00-ae87-1dbe83f1ac1d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='level2_107']/li[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Work Template&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>150ccc4b-98fe-4b55-8fbc-dd6d91faa5c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> level3_5</value>
+      <webElementGuid>bceab4f8-29e0-4f30-ba25-65b7a029f19f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-param1</name>
+      <type>Main</type>
+      <value>118</value>
+      <webElementGuid>74d0b038-7791-4980-a8b8-52c502f0def7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-param2</name>
+      <type>Main</type>
+      <value>/prohance/WorkTemplateSummary.htm?menuItemId=118</value>
+      <webElementGuid>a12f0765-ca11-4bab-9362-cc26fcfff6c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-param3</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>a0a70310-09ce-4f6d-aa6a-32a02b4526ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+												Work Template</value>
+      <webElementGuid>96442264-5c79-4226-b57e-f760fad2bf94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;level2_107&quot;)/li[@class=&quot;level3_5&quot;]</value>
+      <webElementGuid>e69774a8-1afe-4f53-ae48-233b49a4933e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='level2_107']/li[3]</value>
+      <webElementGuid>dec9c716-f9a1-444f-8cc2-4231bdf587ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Shifts'])[1]/following::li[1]</value>
+      <webElementGuid>795a3b82-762e-40e3-9c49-f44931386e72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::li[2]</value>
+      <webElementGuid>eeba7fa1-b9f1-4e98-b8df-a54d582f4652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rating Scale'])[1]/preceding::li[1]</value>
+      <webElementGuid>07749c62-414f-4238-8ca0-8dee7d16257d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Workload Categories'])[1]/preceding::li[2]</value>
+      <webElementGuid>bef42065-3dc7-4d43-ab83-40f5dc9aee4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Work Template']/parent::*</value>
+      <webElementGuid>49f986c2-390d-4251-9fba-4632739b5c8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/ul/li[3]</value>
+      <webElementGuid>6a9e0843-e56f-4f48-a2d8-dcf99f3316b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = '
+												Work Template' or . = '
+												Work Template')]</value>
+      <webElementGuid>a0ab1541-4778-4cd7-aca2-9516aa55a3a5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

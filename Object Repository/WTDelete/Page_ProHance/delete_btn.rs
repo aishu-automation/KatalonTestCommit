@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>delete_btn</name>
+   <tag></tag>
+   <elementGuidId>a5a350ae-fe7f-46d7-ae38-eff10aeccb1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='CommonDataTableId']/tbody/tr/td/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/WTDelete/Page_ProHance/iframe_Hierarchy Mapping_contentFrame</value>
+      <webElementGuid>bf103813-8f66-4952-a213-c0c8a5b44011</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//table[@id='CommonDataTableId']/tbody/tr/td/a/i</value>
+      <webElementGuid>4d1f82cd-15ee-4a4e-aa3e-b79401634978</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>0f091496-66d7-4675-b80a-3a620862be31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//i[@title = 'Save As']</value>
+      <webElementGuid>fcc0100f-28ee-4a3b-b50a-78b171db38ca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

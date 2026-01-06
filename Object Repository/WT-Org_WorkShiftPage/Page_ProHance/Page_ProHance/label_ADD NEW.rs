@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_ADD NEW</name>
+   <tag></tag>
+   <elementGuidId>03f0035d-0a14-4310-b7f7-a96380cdf046</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='addUserClick']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#addUserClick</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;ADD NEW&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>398ee050-75e6-4e29-be15-2fc894a297bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>add-new-name</value>
+      <webElementGuid>e4f452db-1e55-42f5-95ed-394cd95260c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>addUserClick</value>
+      <webElementGuid>f2fe0215-32a2-4285-977e-81ffe3bb4aed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+			   ADD NEW</value>
+      <webElementGuid>3b348c2b-683e-4ee0-a25a-3bc9d725f8c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;addUserClick&quot;)</value>
+      <webElementGuid>78828011-8143-45ca-a2f8-6f880ac0a13c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/WT-Org_WorkShiftPage/Page_ProHance/Page_ProHance/iframe_Hierarchy Mapping_contentFrame</value>
+      <webElementGuid>ef5909b2-1b2e-4e33-bc85-ea65a5d4f21d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='addUserClick']</value>
+      <webElementGuid>2a2c7e12-d798-44a0-bd83-fa9ab1919cb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='mainForm_1']/div[3]/div/div[2]/ol/li/label[2]</value>
+      <webElementGuid>20b12f8b-0aa4-468f-941d-66b34c62fc4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/following::label[1]</value>
+      <webElementGuid>1e3c5306-81e8-4b38-a61e-f141f7b1c7fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NOTIFICATIONS'])[1]/following::label[1]</value>
+      <webElementGuid>0f49b81d-3296-4d36-8f70-c83add301f0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ADD NEW']/parent::*</value>
+      <webElementGuid>555d061c-0d03-48b1-83a4-96326ffc0018</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[2]</value>
+      <webElementGuid>768454d3-aca0-4cd3-aea1-bc858d30ce10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'addUserClick' and (text() = '
+			   ADD NEW' or . = '
+			   ADD NEW')]</value>
+      <webElementGuid>05e82981-7de0-4393-a141-8d07af95f43a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

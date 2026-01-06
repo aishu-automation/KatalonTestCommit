@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Export_vertical-Align-Middle cursor-pointer</name>
+   <tag></tag>
+   <elementGuidId>aec1fcb9-6df7-4e84-8554-4c925e91dc72</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.dt-button.buttons-pdf.buttons-html5 > span > img.vertical-Align-Middle.cursor-pointer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CommonDataTableId_wrapper']/div/span[3]/span/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=img[name=&quot;Export to PDF&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>deac1986-4646-41a6-a02a-da26e771bd29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/prohance/images/pdf.png</value>
+      <webElementGuid>8cf683ff-fdf9-4018-b712-883dee13506d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Export to PDF</value>
+      <webElementGuid>80668444-56f9-4023-b0b1-0fcb6d67f6a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>middle</value>
+      <webElementGuid>5167644a-dd9e-4e4a-bbf2-d5be636a8eb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vertical-Align-Middle cursor-pointer</value>
+      <webElementGuid>81eca7ae-6888-46df-aedc-099ff4df4046</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CommonDataTableId_wrapper&quot;)/div[@class=&quot;dt-buttons&quot;]/span[@class=&quot;dt-button buttons-pdf buttons-html5&quot;]/span[1]/img[@class=&quot;vertical-Align-Middle cursor-pointer&quot;]</value>
+      <webElementGuid>c70a706f-cddb-4f74-891a-060374c5a947</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CommonDataTableId_wrapper']/div/span[3]/span/img</value>
+      <webElementGuid>ad311f9e-ccc4-45f6-bc5b-7a9b214a58ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@title='Export to PDF']</value>
+      <webElementGuid>b361293b-b9a5-44d9-861d-acb7775f5a10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[3]/span/img</value>
+      <webElementGuid>c483013d-c31f-4569-907e-2807381874b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/prohance/images/pdf.png' and @title = 'Export to PDF']</value>
+      <webElementGuid>8d7b967a-2b6d-4b39-b135-fca7e47fa4e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

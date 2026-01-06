@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Export_vertical-Align-Middle cursor-pointer</name>
+   <tag></tag>
+   <elementGuidId>93124010-9bf6-43c5-af07-8f3650ceead8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.vertical-Align-Middle.cursor-pointer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CommonDataTableId_wrapper']/div/span[2]/span/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=img[name=&quot;Export to Excel&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>8d47997f-9d1c-42f0-bfe5-f41c2e74b0e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/prohance/images/excel.png</value>
+      <webElementGuid>1a2eeff5-e44a-491b-a134-0ace1d1ba7b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Export to Excel</value>
+      <webElementGuid>ccf7107c-6817-4055-a6f5-bd23ea48f40b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>middle</value>
+      <webElementGuid>627480ca-1518-4a68-9557-5f95f5d22944</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vertical-Align-Middle cursor-pointer</value>
+      <webElementGuid>46a65c6e-b3f2-4e38-a449-c3660676aa2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CommonDataTableId_wrapper&quot;)/div[@class=&quot;dt-buttons&quot;]/span[@class=&quot;dt-button buttons-excel buttons-html5&quot;]/span[1]/img[@class=&quot;vertical-Align-Middle cursor-pointer&quot;]</value>
+      <webElementGuid>557b22a9-0eb2-4b24-b1d2-d63cbb6cbad1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/excel/Page_ProHance/iframe_Hierarchy Mapping_contentFrame</value>
+      <webElementGuid>4623fb89-3997-47ba-94e6-d945212b15c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CommonDataTableId_wrapper']/div/span[2]/span/img</value>
+      <webElementGuid>d76eeb05-2d67-4355-8262-5e26ea45cad7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@title='Export to Excel']</value>
+      <webElementGuid>4686f8ce-036a-4a97-a87b-dc3fc8c78e51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/img</value>
+      <webElementGuid>b7277b8b-c6ee-4fc9-813e-90c7a15ac84b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/prohance/images/excel.png' and @title = 'Export to Excel']</value>
+      <webElementGuid>d1e61b2a-b108-4312-a62e-aa486cff6ead</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

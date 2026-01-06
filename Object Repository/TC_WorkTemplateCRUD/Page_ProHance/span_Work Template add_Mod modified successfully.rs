@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Work Template add_Mod modified successfully</name>
+   <tag></tag>
+   <elementGuidId>86602d74-510e-44a5-b42d-cd7b6e868071</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='successmsgdiv']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#successmsgdiv</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Work Template: add_Mod modified successfully&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9f1d1328-6cfd-4fc5-bec3-d1d73f2e26d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>successmsgdiv</value>
+      <webElementGuid>e8c5e6b3-257b-4e33-8097-9eb837761af3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Work Template: add_Mod modified successfully</value>
+      <webElementGuid>4d1c93a0-ef74-4a44-8146-d1b1c3272ab6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;successmsgdiv&quot;)</value>
+      <webElementGuid>dee2fd9f-0d2a-4b1a-bbf3-df0701e930bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/TC_WorkTemplateCRUD/Page_ProHance/iframe_Hierarchy Mapping_contentFrame</value>
+      <webElementGuid>ef29c72c-9c2c-49d2-b38c-94e467cd5856</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='successmsgdiv']</value>
+      <webElementGuid>9615c293-dbe6-4f77-b9fc-5e7d235f620a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='dialogsuccessspan']/span/span</value>
+      <webElementGuid>04e1c227-499b-49d9-b5dd-f5fc831a7410</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[2]/following::span[1]</value>
+      <webElementGuid>db5b9f45-ac82-4964-be85-8a03281f1735</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administration'])[1]/preceding::span[2]</value>
+      <webElementGuid>750e8838-541b-4f8c-9b6e-1d7068251903</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Organization'])[1]/preceding::span[2]</value>
+      <webElementGuid>029832b4-7b79-4a30-984c-2b97bddcf327</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Work Template: add_Mod modified successfully']/parent::*</value>
+      <webElementGuid>4d2c6f29-0b57-4744-b05c-7d0d9cada42f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span/span</value>
+      <webElementGuid>1f7a1d25-0833-4780-8dd0-18f92510f7f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'successmsgdiv' and (text() = 'Work Template: add_Mod modified successfully' or . = 'Work Template: add_Mod modified successfully')]</value>
+      <webElementGuid>29eba282-b85f-4a43-b901-c6cb1bfdddc6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

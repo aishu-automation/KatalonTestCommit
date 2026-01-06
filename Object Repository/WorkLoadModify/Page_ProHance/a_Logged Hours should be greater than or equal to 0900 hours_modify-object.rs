@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Logged Hours should be greater than or equal to 0900 hours_modify-object</name>
+   <tag></tag>
+   <elementGuidId>066f73e2-4292-45f2-8624-3a7262b431d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@id='modify-object'])[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(4) > td.action-icons.width-6percentage > #modify-object</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;  4 test Logged Hours should be greater than or equal to 00:04 hours&quot;i] >> internal:attr=[title=&quot;Modify&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1bc62baf-95af-4d48-b1f6-0ac9049635fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-pencil-square-o fa-lg pointer action-first mod-object</value>
+      <webElementGuid>db066c5f-fb9d-4f68-8d27-37bf692fbb39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>modify-object</value>
+      <webElementGuid>69363646-bc89-4c1c-8fc3-55ea2b75a872</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Modify</value>
+      <webElementGuid>142817bb-ce7f-4ef2-868b-3bcddadff0f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-param1</name>
+      <type>Main</type>
+      <value>1454</value>
+      <webElementGuid>7f78d53c-1966-4c2f-99a2-4e91ee2a5dc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;categoryTable&quot;)/tr[4]/td[@class=&quot;action-icons width-6percentage&quot;]/a[@id=&quot;modify-object&quot;]</value>
+      <webElementGuid>e2ae4349-84a2-4732-bd33-7e28bd3019d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/WorkLoadModify/Page_ProHance/iframe_Hierarchy Mapping_contentFrame</value>
+      <webElementGuid>b881eabb-644f-446b-b70c-7553deb2626c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@id='modify-object'])[4]</value>
+      <webElementGuid>0f7d4257-15d9-49a3-9acc-fdbfa53c5c83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tbody[@id='categoryTable']/tr[4]/td/a</value>
+      <webElementGuid>a399ec0c-95d3-4982-a904-2ea8c9856a10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td/a</value>
+      <webElementGuid>bdf1f4e0-4d94-47c1-9743-cb1982006c73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'modify-object' and @title = 'Modify']</value>
+      <webElementGuid>3d691be3-0b5d-4c50-9689-848f7fa778c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

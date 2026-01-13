@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When user try to do login without entering username</description>
+   <name>TC_RRI_LoginWithoutUsername</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ddffb1f0-e679-4788-bd96-157b8b736cbd</testCaseGuid>
+</TestCaseEntity>

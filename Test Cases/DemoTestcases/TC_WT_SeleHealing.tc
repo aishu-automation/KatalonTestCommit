@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_WT_SeleHealing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e3b100df-7523-4a24-a9d8-0801fb1c2f45</testCaseGuid>
+</TestCaseEntity>

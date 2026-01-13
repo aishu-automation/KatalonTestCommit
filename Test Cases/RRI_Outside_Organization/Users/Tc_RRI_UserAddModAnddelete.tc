@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User add,modify and delete validation</description>
+   <name>Tc_RRI_UserAddModAnddelete</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5bf82bdd-3ee5-41be-9137-da42fe07a3c2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>When try to do login without cretentials .Error message should show</description>
+   <name>TC_RRI_LoginWithoutCretentials</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0bb54ba8-378c-4a6a-9ca5-612db99cf59a</testCaseGuid>
+</TestCaseEntity>

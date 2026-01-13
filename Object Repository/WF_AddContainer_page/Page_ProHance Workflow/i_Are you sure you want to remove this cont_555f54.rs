@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Are you sure you want to remove this cont_555f54</name>
+   <tag></tag>
+   <elementGuidId>735e5626-1323-4829-903f-b6ab0798ed98</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-plus.fa-grey</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='add']/div/span/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#add i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>f99eb9a1-9611-4d51-82c6-c1f57da8ff20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-plus fa-grey</value>
+      <webElementGuid>d1cdc13b-0b88-49c1-aa41-c7a9fcc4e46f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;add&quot;)/div[@class=&quot;add-tab&quot;]/span[1]/i[@class=&quot;fa fa-plus fa-grey&quot;]</value>
+      <webElementGuid>519c67e6-7871-4303-a76f-3f8947d4c11e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/WF_AddContainer_page/Page_ProHance Workflow/iframe_Workflow Settings_contentFrame</value>
+      <webElementGuid>f2232ced-e435-4646-88d5-f8e8eb839c07</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='add']/div/span/i</value>
+      <webElementGuid>a7d44e99-390c-4d3d-b82c-a9ef072c8cb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span/i</value>
+      <webElementGuid>3e3908c7-9419-4a2d-b925-c7223daa669d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

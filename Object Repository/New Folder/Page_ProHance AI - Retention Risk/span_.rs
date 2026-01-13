@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_</name>
+   <tag></tag>
+   <elementGuidId>59fef990-b14e-490f-abe8-a90513ab9b60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='«r1r»-label']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#«r1r»-label > span.MuiFormLabel-asterisk.MuiInputLabel-asterisk.css-b6x67f</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>label >> internal:has-text=&quot;First Name *&quot;i >> span</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b1af0000-2e14-4916-82ee-c040fe0c6476</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>e6d68310-987a-4dc9-8ef5-1c534f7444be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormLabel-asterisk MuiInputLabel-asterisk css-b6x67f</value>
+      <webElementGuid>d115f6ce-35cb-4313-a57e-a6c31c31ef87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> *</value>
+      <webElementGuid>2e301834-9580-425b-871b-88cd98cceab8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;«r1r»-label&quot;)/span[@class=&quot;MuiFormLabel-asterisk MuiInputLabel-asterisk css-b6x67f&quot;]</value>
+      <webElementGuid>c9ed3519-3806-4f59-a919-ec779032567d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//label[@id='«r1r»-label']/span</value>
+      <webElementGuid>1304078d-26ba-4369-bd80-a018a35c60b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[2]/preceding::span[2]</value>
+      <webElementGuid>ee82e4dc-e5a1-4bc0-9da3-01a2090c29ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/label/span</value>
+      <webElementGuid>e0385fc5-8669-4267-882d-943c5805a298</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' *' or . = ' *')]</value>
+      <webElementGuid>c07eed3f-e293-4447-bd87-f19770fd7e7e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

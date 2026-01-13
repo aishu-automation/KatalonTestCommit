@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_WT_WorkTemplateSorting</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9774d95b-d50b-48a7-84da-4de2dbc56acf</testCaseGuid>
+</TestCaseEntity>

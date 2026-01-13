@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_WT_TopCategoriesDurationValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1ebd9ea6-c1c2-4660-b7fb-d68a65d29d28</testCaseGuid>
+</TestCaseEntity>

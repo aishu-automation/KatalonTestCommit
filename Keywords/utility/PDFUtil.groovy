@@ -1,19 +1,13 @@
 package utility
 
-
-import org.apache.pdfbox.pdfparser.PDFParser
 import org.apache.pdfbox.pdmodel.PDDocument
 import org.apache.pdfbox.text.PDFTextStripper
-
 import com.kms.katalon.core.annotation.Keyword
-
-
 
 public class PDFUtil {
 	
 	@Keyword
 	String readLatestDownloadedPdf(String downloadDir) {
-
 		File dir = new File(downloadDir)
 		assert dir.exists() : "Download directory not found: " + downloadDir
 
@@ -37,19 +31,25 @@ public class PDFUtil {
 		}
 
 		assert latestPdf.length() > 0 : "PDF file is empty or download failed!"
-		println(PDDocument.class.getProtectionDomain().getCodeSource().getLocation())
-		
-//	RandomAccessFile raf = new RandomAccessFile(latestPdf, "r")
-//        PDFParser parser = new PDFParser(raf)
-//        parser.parse()
-//        PDDocument document = parser.
-//		PDFTextStripper stripper = new PDFTextStripper()
-//		String pdfText = stripper.getText(document)
-//
-//		document.close()
-//		
-//
-//		return pdfText.trim()
-	}
+		println("PDF found: " + latestPdf.getAbsolutePath())
 
+		// Extract text from PDF using PDFBox
+		PDDocument document = null
+		println("PDF found: " +document.getVersion())
+//		try {
+//			document = PDDocument.load(latestPdf)
+//			PDFTextStripper textStripper = new PDFTextStripper()
+//			String pdfText = textStripper.getText(document)
+//			println("PDF text extracted successfully")
+//			return pdfText.trim()
+//		} catch (Exception e) {
+//			println("Error extracting PDF text: " + e.getMessage())
+//			e.printStackTrace()
+//			throw e
+//		} finally {
+//			if (document != null) {
+//				document.close()
+//			}
+//		}
+	}
 }

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_WT_WorkTemplate</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>f9e9b994-3c88-43b0-8e86-38bba1251cc0</testCaseGuid>
-</TestCaseEntity>

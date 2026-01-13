@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_WF_ContainerCountValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>89305cb5-63cd-415d-ae51-19c29ba74ecc</testCaseGuid>
+</TestCaseEntity>

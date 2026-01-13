@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_-_status-circle active</name>
+   <tag></tag>
+   <elementGuidId>26cb395f-bfa5-4a9d-a238-a252f96cf2ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cell-8-undefined']/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.status-circle.active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;Add - Add - Administrator -&quot;i] >> span</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>17f36178-5054-4433-bff2-ef479c89482c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>status-circle active</value>
+      <webElementGuid>99399283-e647-4f04-8eb1-b8fde3979e18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cell-8-undefined&quot;)/div[@class=&quot;status-indicator&quot;]/span[@class=&quot;status-circle active&quot;]</value>
+      <webElementGuid>ade84702-c949-44f7-9f2c-9db9545d0cf1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cell-8-undefined']/div/span</value>
+      <webElementGuid>b4180b49-9dee-4876-8c06-26c2c67d50c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[8]/div/span</value>
+      <webElementGuid>3ec71d2f-8998-443d-9ccc-993b3f26db06</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

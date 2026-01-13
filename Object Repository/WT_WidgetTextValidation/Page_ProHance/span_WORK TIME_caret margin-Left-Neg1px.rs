@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_WORK TIME_caret margin-Left-Neg1px</name>
+   <tag></tag>
+   <elementGuidId>257526a6-7672-4fb5-83a2-7e5d62d40b7a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.caret.margin-Left-Neg1px</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='workTimeLiToggle2']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Work Time&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f346bb91-fdc1-4342-abfd-dec7f146070d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>caret margin-Left-Neg1px</value>
+      <webElementGuid>ca7a3fe6-8fba-44d6-8670-3199a0b0805a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;workTimeLiToggle2&quot;)/span[@class=&quot;caret margin-Left-Neg1px&quot;]</value>
+      <webElementGuid>02f215a0-1488-4afe-9057-6ff11ee91822</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='workTimeLiToggle2']/span</value>
+      <webElementGuid>02b30c44-0fe4-4587-8525-5630735d05a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/span</value>
+      <webElementGuid>31d79cf7-c11d-444a-8095-1b46af5b2312</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Administration</name>
+   <tag></tag>
+   <elementGuidId>3bd51f50-a298-4fc1-a2c3-31400a7a0d45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/div/nav/ol/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.MuiBreadcrumbs-li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>li >> internal:has-text=&quot;Administration&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>b3673667-49a8-4233-b08b-e65eaf8d565f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiBreadcrumbs-li</value>
+      <webElementGuid>e4c07306-85be-43b5-ac70-1d055e0b0638</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Administration</value>
+      <webElementGuid>d61553bf-a0fa-4a6b-b927-d9b9336b7f51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;layout-root MuiBox-root css-0&quot;]/main[@class=&quot;main-content MuiBox-root css-5o906h&quot;]/div[@class=&quot;organization-details MuiBox-root css-19kzrtu&quot;]/div[@class=&quot;MuiBox-root css-1y8uf5e&quot;]/nav[@class=&quot;MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-o09oid&quot;]/ol[@class=&quot;MuiBreadcrumbs-ol css-51eq8m&quot;]/li[@class=&quot;MuiBreadcrumbs-li&quot;]</value>
+      <webElementGuid>f18c69f0-33b0-4fb1-b70a-4e6f4689dcb5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/div/nav/ol/li</value>
+      <webElementGuid>c7380e03-8a46-4484-a046-f2a196cea7da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIDEBAR MENU'])[1]/following::li[1]</value>
+      <webElementGuid>d3ea4239-f412-4c1e-9452-4728a15b13f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AI'])[1]/following::li[1]</value>
+      <webElementGuid>e7644c6d-45ed-4917-82a4-b7dee4cbd2c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD NEW'])[1]/preceding::li[3]</value>
+      <webElementGuid>4e062813-e983-433e-bfde-510cd67da44c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li</value>
+      <webElementGuid>561bef80-fa79-49f3-a564-36cd4cd9d941</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Administration' or . = 'Administration')]</value>
+      <webElementGuid>66a5d6ba-64b6-4caf-bf57-97b6d76c1102</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Captcha Text_col-lg-12</name>
+   <tag></tag>
+   <elementGuidId>06b87a96-d8d4-4717-a97b-7dc7bbb43049</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-lg-12</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loginSubmitFrm']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#loginSubmitFrm div >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>48b227ab-d858-4a70-8692-4b714167ac31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-lg-12</value>
+      <webElementGuid>64b13f65-9529-4f5d-912e-3f8faf80b809</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loginSubmitFrm&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]</value>
+      <webElementGuid>3c6a0a2f-efd2-4cf7-b5a5-388a28d2df5c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loginSubmitFrm']/div/div</value>
+      <webElementGuid>ea23c924-7d92-4c43-beac-8d955224b138</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Captcha Text'])[1]/following::div[5]</value>
+      <webElementGuid>8556ae27-7be1-40be-8620-aa466bdffd01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Id'])[1]/following::div[8]</value>
+      <webElementGuid>aea8ebcd-b68a-497f-a8bd-c218bb218205</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© JaMocha Tech Pvt. Ltd. 2009-2026'])[1]/preceding::div[3]</value>
+      <webElementGuid>402632fe-8ac6-4fe3-af20-c1b2e773d58e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ProHance v9.9.10.153'])[1]/preceding::div[4]</value>
+      <webElementGuid>217d9b79-7705-4eea-adc0-b55ca1e2d36b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/div/div</value>
+      <webElementGuid>563540f2-5a6d-4725-a1b7-25f98a39c625</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

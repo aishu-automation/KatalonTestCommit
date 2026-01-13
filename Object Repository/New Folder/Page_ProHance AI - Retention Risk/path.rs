@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>ec8b7afc-0363-4e07-8f7b-c5ddb6b40c5b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#sidebar-container >> internal:role=button</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>7ba8ecb4-9d13-49aa-8efb-036e3ffaf36d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z</value>
+      <webElementGuid>a84f15b1-7648-4d19-b898-863a83f728b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-container&quot;)/div[@class=&quot;MuiBox-root css-1765rn6&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-15rkpyp&quot;]/svg[@class=&quot;MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-vh810p&quot;]/path[1]</value>
+      <webElementGuid>fd683101-a833-4843-aade-aace47362a0f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

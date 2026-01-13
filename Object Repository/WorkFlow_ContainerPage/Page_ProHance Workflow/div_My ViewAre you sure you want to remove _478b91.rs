@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_My ViewAre you sure you want to remove _478b91</name>
+   <tag></tag>
+   <elementGuidId>13c0b77b-ef55-4b6d-ac8c-c72f5115f472</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.view-tab</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='tab_1']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;My ViewAre you sure you want to remove this container?NoYes&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3654eccc-c15e-4869-b5ba-51a067844ae7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>view-tab</value>
+      <webElementGuid>eaaa28aa-f4cb-4faa-99ef-9ce5888949ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My ViewAre you sure you want to remove this container?</value>
+      <webElementGuid>ef266dbe-6993-413d-bf88-c98f030b1ed4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab_1&quot;)/div[@class=&quot;view-tab&quot;]</value>
+      <webElementGuid>377d16c2-f38e-453b-8878-010087e4f7ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/WorkFlow_ContainerPage/Page_ProHance Workflow/iframe_Workflow Settings_contentFrame</value>
+      <webElementGuid>db3b6ae7-b9c8-4e77-95e2-41e7608ed6b3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='tab_1']/div</value>
+      <webElementGuid>6949f3a7-733d-4621-8768-68448e0a1594</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/ul/li/div</value>
+      <webElementGuid>c76be76f-898c-4557-862c-e8b2d6fbbf9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'My ViewAre you sure you want to remove this container?' or . = 'My ViewAre you sure you want to remove this container?')]</value>
+      <webElementGuid>f08c586f-5efd-4699-9881-b5661c0517ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

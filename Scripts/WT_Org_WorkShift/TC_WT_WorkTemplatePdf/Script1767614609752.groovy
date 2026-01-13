@@ -21,15 +21,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://10.10.10.181:8443/prohance')
-
-WebUI.setText(findTestObject('Object Repository/WorktemplatePdf_Page/Page_ProHance/input_Username_tlogin'), 'kaadmin')
-
-WebUI.setText(findTestObject('Object Repository/WorktemplatePdf_Page/Page_ProHance/input_Password_tpwdsaved'), '1')
-
-WebUI.click(findTestObject('Object Repository/WorktemplatePdf_Page/Page_ProHance/div_Captcha Text_loginSubmitFrm'))
+WebUI.callTestCase(findTestCase('Common/LoginPageTestCase'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/WorktemplatePdf_Page/Page_ProHance/li_Organization'))
 

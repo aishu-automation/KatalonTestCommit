@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify RRI Login page with valida username and password</description>
+   <name>TC_RRI_LoginWithValidCretentials</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ef52d12a-caf1-4f05-bfcc-95c1e657d85c</testCaseGuid>
+</TestCaseEntity>

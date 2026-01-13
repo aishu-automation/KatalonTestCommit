@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RRI_UserRequiredFiledValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7c1dd308-27ae-47a5-9dac-baae2fd0b1e4</testCaseGuid>
+</TestCaseEntity>

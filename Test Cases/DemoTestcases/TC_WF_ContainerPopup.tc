@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_WF_ContainerPopup</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d365edea-b1dc-4108-8896-0f4c3928702c</testCaseGuid>
+</TestCaseEntity>

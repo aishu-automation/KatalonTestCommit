@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Are you sure you want to remove this cont_555f54</name>
+   <tag></tag>
+   <elementGuidId>a31dfe70-e245-45d8-8aaa-a5dbd78377b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-plus.fa-grey</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='add']/div/span/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#add i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>5a32479d-704a-4a2e-ab76-a5be6baf5f3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-plus fa-grey</value>
+      <webElementGuid>4aabb3ba-df1d-4e8d-b1d8-fc0017bded11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;add&quot;)/div[@class=&quot;add-tab&quot;]/span[1]/i[@class=&quot;fa fa-plus fa-grey&quot;]</value>
+      <webElementGuid>17398e27-f660-4ec2-8d3f-da757b51b554</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/con_popuppage/Page_ProHance Workflow/iframe_Workflow Settings_contentFrame</value>
+      <webElementGuid>1ea79de5-d988-464f-887f-af758cee98ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='add']/div/span/i</value>
+      <webElementGuid>c4861487-e262-409b-a1e4-2d2f789f898a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span/i</value>
+      <webElementGuid>737d18b7-be35-4656-a621-90547cf11cea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

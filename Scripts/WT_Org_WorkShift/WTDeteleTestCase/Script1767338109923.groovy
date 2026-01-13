@@ -21,24 +21,24 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://10.10.10.181:8443/prohance')
 
-WebUI.setText(findTestObject('Object Repository/ShiftPage/Page_ProHance/input_Username_tlogin'), 'kaadmin')
+WebUI.setText(findTestObject('null'), 'kaadmin')
 
-WebUI.setText(findTestObject('Object Repository/ShiftPage/Page_ProHance/input_Password_tpwdsaved'), '1')
+WebUI.setText(findTestObject('null'), '1')
 
-WebUI.click(findTestObject('Object Repository/ShiftPage/Page_ProHance/div_Captcha Text_loginSubmitFrm'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/ShiftPage/Page_ProHance/li_Organization'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/ShiftPage/Page_ProHance/div_ADMIN_arrow-top'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/ShiftPage/Page_ProHance/li_Work Shifts'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementClickable(
-	findTestObject('Object Repository/ShiftPage/Page_ProHance/i_Status_fa fa-trash-o fa-lg'),
+	findTestObject('null'),
 	30
 )
 
-WebUI.click(findTestObject('Object Repository/ShiftPage/Page_ProHance/i_Status_fa fa-trash-o fa-lg'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

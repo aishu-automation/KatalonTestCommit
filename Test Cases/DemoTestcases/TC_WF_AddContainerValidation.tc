@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Adding the container untill add container button exists</description>
+   <name>TC_WF_AddContainerValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f25ca6d-14af-4c07-b298-28b7829e418c</testCaseGuid>
+</TestCaseEntity>

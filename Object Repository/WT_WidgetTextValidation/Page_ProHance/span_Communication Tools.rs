@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Communication Tools</name>
+   <tag></tag>
+   <elementGuidId>09e0f783-a5b7-482e-9ed9-721f3e599a37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.hyperlink</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='topCategoriesDetailsList']/tbody/tr/td[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;Communication Tools&quot;i] >> span</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d4ea375e-163a-49e4-b344-62204de5fb53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hyperlink</value>
+      <webElementGuid>26eee501-ea4c-416e-975b-5291bd82ff02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-onclick</name>
+      <type>Main</type>
+      <value>fnCategorySpecificDrillDownOnClick</value>
+      <webElementGuid>450d49fb-7d45-4d4f-ad1d-5acc69f2ed5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-param1</name>
+      <type>Main</type>
+      <value>7899</value>
+      <webElementGuid>d95acf04-10a4-4113-b584-e6f27826ddf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-param2</name>
+      <type>Main</type>
+      <value>47</value>
+      <webElementGuid>ff402c07-7b44-4e82-8dd0-90637670fb71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-param3</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>38dfd1d3-fdbc-4d74-8919-043d8f06b8f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+						    				Communication Tools
+						    			</value>
+      <webElementGuid>c8cf524a-3747-4f17-a201-b1b32d115a27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;topCategoriesDetailsList&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;text ph-dash-width-55percentage&quot;]/span[@class=&quot;hyperlink&quot;]</value>
+      <webElementGuid>0dc05ca6-9336-452e-9c8c-19e0676107b7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='topCategoriesDetailsList']/tbody/tr/td[3]/span</value>
+      <webElementGuid>2c291c7e-2850-47aa-a9d7-3a6cfca4322b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#Switches'])[1]/following::span[2]</value>
+      <webElementGuid>af48b44f-da41-48c1-96b2-00727d7a6946</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#Users'])[1]/following::span[2]</value>
+      <webElementGuid>77f52926-31aa-4a9f-b4ee-7e67ec6d360e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Documentation Tools'])[2]/preceding::span[3]</value>
+      <webElementGuid>9df7d477-adad-4e59-8e0b-6821d78af3a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='System Tools'])[2]/preceding::span[6]</value>
+      <webElementGuid>24602767-475e-4b5d-a915-461349e500fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/table/tbody/tr/td[3]/span</value>
+      <webElementGuid>742c4adc-5665-49b0-ae3f-16ef40a33e78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+						    				Communication Tools
+						    			' or . = '
+						    				Communication Tools
+						    			')]</value>
+      <webElementGuid>145d22de-c656-4e77-94ca-a7797f3e4bac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

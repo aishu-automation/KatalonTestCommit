@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_WT_OnDemandTestCase</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ddfc2c0d-01f7-48f5-8ad9-327ab45d8101</testCaseGuid>
+</TestCaseEntity>

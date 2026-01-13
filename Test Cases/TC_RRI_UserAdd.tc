@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RRI_UserAdd</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3db0ab08-f27f-4205-9537-8ef5ed6cd607</testCaseGuid>
+</TestCaseEntity>

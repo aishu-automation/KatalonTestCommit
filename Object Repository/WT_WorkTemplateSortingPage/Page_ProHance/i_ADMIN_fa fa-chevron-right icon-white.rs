@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_ADMIN_fa fa-chevron-right icon-white</name>
+   <tag></tag>
+   <elementGuidId>86a250d0-fbeb-4f1e-933c-c0d02b14f14f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-chevron-right.icon-white</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='arrow-top']/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#arrow-top i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>77d89aa5-032a-42b6-9308-983aac6bc34a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-chevron-right icon-white</value>
+      <webElementGuid>8272030a-65e0-4377-84b5-1787bce20426</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;arrow-top&quot;)/i[@class=&quot;fa fa-chevron-right icon-white&quot;]</value>
+      <webElementGuid>4ba510da-0ef7-4b2c-ab19-49a98642006f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='arrow-top']/i</value>
+      <webElementGuid>4915c124-11bc-4a1e-ae78-15a237f6e3d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div/i</value>
+      <webElementGuid>fd57e7ab-6e3c-428f-a242-987dcae0ba83</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_</name>
+   <tag></tag>
+   <elementGuidId>f724258d-63ff-4cd1-9043-36e50e31cabc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='«r1q»-label']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.MuiFormLabel-asterisk.MuiInputLabel-asterisk.css-b6x67f</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>label >> internal:has-text=&quot;Login Id *&quot;i >> span</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e54e30eb-606e-41eb-b84c-a59a9500e1e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d3fcbffd-d87d-4f29-af12-e8dcf427fcc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormLabel-asterisk MuiInputLabel-asterisk css-b6x67f</value>
+      <webElementGuid>d003a9ac-aef7-4c89-9be1-b41b57fde121</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> *</value>
+      <webElementGuid>c2d0d435-7818-49f4-9ee0-70659b0cb9bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;«r1q»-label&quot;)/span[@class=&quot;MuiFormLabel-asterisk MuiInputLabel-asterisk css-b6x67f&quot;]</value>
+      <webElementGuid>988ae1dd-8a5a-406f-abd2-eb289abca2fc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//label[@id='«r1q»-label']/span</value>
+      <webElementGuid>34a9c44a-12bc-4c28-92bf-46d938ffdbee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add User'])[1]/following::span[1]</value>
+      <webElementGuid>c9c225ba-0f5d-4c84-8958-2a5b8e9a2c0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='*']/parent::*</value>
+      <webElementGuid>03689f94-4217-48cc-a024-b5eb49b546f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span</value>
+      <webElementGuid>b8f269d5-ad3b-4637-8de9-ef53c50bb814</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' *' or . = ' *')]</value>
+      <webElementGuid>69f7e8c1-97ef-4c03-84f9-cd4f66be2b2f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

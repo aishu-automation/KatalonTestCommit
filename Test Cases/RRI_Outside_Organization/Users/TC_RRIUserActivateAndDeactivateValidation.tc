@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create a new user verify status &quot;Active&quot; And then deactivate and validate</description>
+   <name>TC_RRIUserActivateAndDeactivateValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>613215f5-69d3-4917-81cc-ede796a1344e</testCaseGuid>
+</TestCaseEntity>

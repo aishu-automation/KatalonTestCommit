@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DI_OverallSummaryLowValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6b1013bf-8265-4764-9f24-cba10d177c1d</testCaseGuid>
+</TestCaseEntity>

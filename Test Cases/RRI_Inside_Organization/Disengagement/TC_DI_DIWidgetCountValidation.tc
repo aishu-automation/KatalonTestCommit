@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DI_DIWidgetCountValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ef3b85e0-fee5-4fbe-bc6e-b2e154e0bd2b</testCaseGuid>
+</TestCaseEntity>

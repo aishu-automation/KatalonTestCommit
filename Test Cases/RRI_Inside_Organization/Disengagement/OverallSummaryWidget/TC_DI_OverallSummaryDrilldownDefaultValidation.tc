@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DI_OverallSummaryDrilldownDefaultValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>edeb442b-b438-4b6a-beec-e6419f37871b</testCaseGuid>
+</TestCaseEntity>

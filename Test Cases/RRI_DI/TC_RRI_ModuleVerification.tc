@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_RRI_ModuleVerification</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>cb27e990-640c-4dcd-9d08-45488f85f1a7</testCaseGuid>
-</TestCaseEntity>

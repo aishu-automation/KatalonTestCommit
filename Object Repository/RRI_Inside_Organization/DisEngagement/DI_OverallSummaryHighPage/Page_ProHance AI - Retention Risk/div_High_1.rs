@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_High_1</name>
+   <tag></tag>
+   <elementGuidId>626e3b32-d2cc-4f8d-82e8-09d87c6e7272</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/aside/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.filter-group > div > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^High$/</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cba0374f-8494-42ca-8eaa-479cde7b4d3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>High</value>
+      <webElementGuid>728a358d-507c-4c3f-af56-cf94c72323d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;layout-root MuiBox-root css-0&quot;]/main[@class=&quot;main-content MuiBox-root css-19toco3&quot;]/div[@class=&quot;drilldown-container&quot;]/aside[@class=&quot;sidebar&quot;]/div[@class=&quot;filter-section&quot;]/div[@class=&quot;filter-group&quot;]/div[1]/div[1]</value>
+      <webElementGuid>f47c2fac-93a4-497b-a10c-b587d5e3b25e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/aside/div/div/div/div</value>
+      <webElementGuid>c2dd77b9-0714-431f-a308-96fe25391d56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disengagement'])[1]/following::div[2]</value>
+      <webElementGuid>8207a6bb-dfce-4673-a290-d42ab80a3207</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FILTER BY:'])[1]/following::div[3]</value>
+      <webElementGuid>69bb2428-885e-45c9-8267-cd7edc29da1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medium'])[1]/preceding::div[1]</value>
+      <webElementGuid>b8650237-cca9-4f3b-91cf-b2e4f4730087</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div</value>
+      <webElementGuid>7ddeb638-e221-4d5d-acb6-b6bf053735b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'High' or . = 'High')]</value>
+      <webElementGuid>f8509d43-7347-494b-a6fa-d7b6913dc339</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

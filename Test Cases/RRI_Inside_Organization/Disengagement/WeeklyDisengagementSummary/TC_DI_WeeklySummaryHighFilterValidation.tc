@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DI_WeeklySummaryHighFilterValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7df7a940-6bae-40e2-b1df-64455a9dfe12</testCaseGuid>
+</TestCaseEntity>

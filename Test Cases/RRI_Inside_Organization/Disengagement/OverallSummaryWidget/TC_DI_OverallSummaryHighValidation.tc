@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DI_OverallSummaryHighValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dce1e38e-c4b4-45fb-8f29-0bf3d7cefff3</testCaseGuid>
+</TestCaseEntity>

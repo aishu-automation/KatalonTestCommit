@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>e57747a4-08ab-4ed1-8a7e-0d0915bd58f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit.MuiIconButton-sizeSmall.css-1bsg61r > svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall.css-vh810p > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Close&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>57482187-1b39-483b-9225-7401ccee34de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z</value>
+      <webElementGuid>ef0c7c8d-e8a7-4f77-9452-c2b6b0508d98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;layout-root MuiBox-root css-0&quot;]/main[@class=&quot;main-content MuiBox-root css-5o906h&quot;]/div[@class=&quot;organization-details&quot;]/div[@class=&quot;MuiSnackbar-root MuiSnackbar-anchorOriginTopCenter css-rnldc6&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-colorSuccess MuiAlert-standardSuccess MuiAlert-standard css-mdidvi&quot;]/div[@class=&quot;MuiAlert-action css-1xfslal&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeSmall css-1bsg61r&quot;]/svg[@class=&quot;MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-vh810p&quot;]/path[1]</value>
+      <webElementGuid>7cfcba9c-bbfa-41a5-8e08-53d6e5c2e0fd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

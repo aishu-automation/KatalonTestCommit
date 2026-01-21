@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_All Groups</name>
+   <tag></tag>
+   <elementGuidId>6dddc399-2cff-4889-981a-b6cd94ed683a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-select-selector</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/aside/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^All Groups$/ >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b8f3db49-2af5-4a37-bd68-4d65e5e8f02b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-selector</value>
+      <webElementGuid>6b4fc90a-5daa-44f0-b2db-50b9c0d2e6f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All Groups</value>
+      <webElementGuid>df9dee84-0238-4efd-a6f9-95ccf50f79cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;layout-root MuiBox-root css-0&quot;]/main[@class=&quot;main-content MuiBox-root css-19toco3&quot;]/div[@class=&quot;drilldown-container&quot;]/aside[@class=&quot;sidebar&quot;]/div[@class=&quot;filter-section&quot;]/div[2]/div[@class=&quot;ant-select ant-select-outlined css-os2fvf ant-select-single ant-select-show-arrow ant-select-open ant-select-show-search&quot;]/div[@class=&quot;ant-select-selector&quot;]</value>
+      <webElementGuid>1383cf95-4172-42ad-8a61-37671967b82e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/aside/div/div[2]/div/div</value>
+      <webElementGuid>2a697d9b-c5a9-4a81-81bf-4a3d4beea2fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Low'])[1]/following::div[3]</value>
+      <webElementGuid>64bcef98-5b22-44ba-8aff-d9ae777c7d12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medium'])[1]/following::div[4]</value>
+      <webElementGuid>1cee8396-dbc9-4a7c-af42-9279956bb0f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Attribute'])[1]/preceding::div[1]</value>
+      <webElementGuid>035e19bd-a0ba-4107-beca-e7bcd5e61d15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div</value>
+      <webElementGuid>5d4e2230-203d-49fb-ba59-e7b91f151fdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'All Groups' or . = 'All Groups')]</value>
+      <webElementGuid>f0af07c6-5032-4a70-8dc7-659a3fade452</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

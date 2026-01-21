@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DI_UserGroupValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6950dc52-dbcc-4110-9f00-cc873bc8874b</testCaseGuid>
+</TestCaseEntity>

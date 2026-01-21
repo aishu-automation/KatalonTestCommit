@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_PH Demo (199 Server)</name>
+   <tag></tag>
+   <elementGuidId>eee12907-6fd8-4175-9d22-24a826a54182</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.organization-name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cell-2-undefined']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;PH Demo (199 Server)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6e98e0cc-cef6-4b96-b94b-39561c6fa4a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>organization-name</value>
+      <webElementGuid>048fc3a9-6da1-4311-bd09-27a5c02ec0f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PH Demo (199 Server)</value>
+      <webElementGuid>580bbe20-eb75-4503-9708-0d0963486a2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;row-0&quot;)/div[@id=&quot;cell-2-undefined&quot;]/div[@class=&quot;organization-name&quot;]</value>
+      <webElementGuid>63c73400-b3e5-418f-9868-3962264e794d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cell-2-undefined']/div</value>
+      <webElementGuid>6a6d975b-2057-4619-b395-52287b13eb17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='▲'])[8]/following::div[6]</value>
+      <webElementGuid>d991ed10-7935-405d-9908-5d42d2ebcaad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::div[6]</value>
+      <webElementGuid>42411807-f0e0-4a5c-976e-0336bd589c0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JAMTEC'])[1]/preceding::div[1]</value>
+      <webElementGuid>a0663562-9749-41f0-8371-77c96eca5143</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DI'])[1]/preceding::div[6]</value>
+      <webElementGuid>f78439ad-935c-4480-b9ae-6be9c044fe4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='PH Demo (199 Server)']/parent::*</value>
+      <webElementGuid>4319cc23-698f-469c-b958-c04894f5346c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div</value>
+      <webElementGuid>c1672431-e37d-484c-960e-ad3ac251db68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'PH Demo (199 Server)' or . = 'PH Demo (199 Server)')]</value>
+      <webElementGuid>e7dad272-0fb1-44bb-aeb6-2ca682a6f8b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

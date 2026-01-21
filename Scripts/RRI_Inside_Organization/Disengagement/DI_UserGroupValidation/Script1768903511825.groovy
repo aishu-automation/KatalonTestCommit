@@ -1,0 +1,42 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://devlab.prohance.ai:8000/prohanceai/v3/dashboard')
+
+WebUI.setText(findTestObject('Object Repository/Page_ProHance AI - Retention Risk/input_Username_r0'), 'superadmin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_ProHance AI - Retention Risk/input_Password_r1'), '9NLz+4tGZcQ=')
+
+WebUI.click(findTestObject('Object Repository/Page_ProHance AI - Retention Risk/label_Password'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_ProHance AI - Retention Risk/input_Password_r1'), '7326p5kcqg3YJazKjhRTWA==')
+
+WebUI.click(findTestObject('Object Repository/Page_ProHance AI - Retention Risk/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/Page_ProHance AI - Retention Risk/div_PH Demo (199 Server)'))
+
+String name = WebUI.getText(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_UserGroupPage/Page_ProHance AI - Retention Risk/div_User GroupsAll Groups'))
+println(name)
+String allGroups = name.split('User Groups')[1].trim()
+
+println(allGroups)
+WebUI.closeBrowser()
+

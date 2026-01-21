@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-DI-OverallSummaryMediumCountValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c26554fd-22c8-4b81-b2bb-9fb40095bece</testCaseGuid>
+</TestCaseEntity>

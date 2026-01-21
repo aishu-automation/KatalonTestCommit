@@ -20,5 +20,5 @@ WebUI.click(findTestObject('Object Repository/LoginValidation/Page_ProHance/div_
 
 WebUI.click(findTestObject('Object Repository/LoginValidation/Page_ProHance/li_Organization'))
 
-WebUI.acceptAlert()
+
 

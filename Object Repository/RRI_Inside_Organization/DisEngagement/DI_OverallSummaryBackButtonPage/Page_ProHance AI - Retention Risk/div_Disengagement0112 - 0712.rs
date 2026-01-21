@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Disengagement0112 - 0712</name>
+   <tag></tag>
+   <elementGuidId>779cc6fe-a238-4b62-b44d-ea3198ea87a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.split-chart-title > div > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/div[2]/div/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Disengagement01/12 - 07/12&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>26486538-4feb-4bbc-aa66-ab7dba8ea32e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Disengagement01/12 - 07/12</value>
+      <webElementGuid>67682a24-07c5-4897-812b-57e5befaddb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;layout-root MuiBox-root css-0&quot;]/main[@class=&quot;main-content MuiBox-root css-19toco3&quot;]/div[@class=&quot;split-dashboard-page&quot;]/div[@class=&quot;split-dashboard-container&quot;]/div[@class=&quot;split-dashboard-grid&quot;]/div[@class=&quot;ant-row split-dashboard-row css-os2fvf&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-md-8 ant-col-lg-8 css-os2fvf&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 split-dashboard-card-1 css-110i50s&quot;]/div[@class=&quot;split-chart-title&quot;]/div[1]/div[1]</value>
+      <webElementGuid>3f9497a9-3f76-4628-ae54-7258b1ee3fb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>split-chart-title</value>
+      <webElementGuid>a4b8112d-6517-46dc-9562-9695f1591e55</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/div[2]/div/div/div/div/div/div/div</value>
+      <webElementGuid>3f7f8192-d29b-46d7-8ab2-d4c4c5ac0952</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Groups'])[1]/following::div[8]</value>
+      <webElementGuid>239d0056-4192-46d3-9160-5207c79e1106</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Groups'])[1]/following::div[11]</value>
+      <webElementGuid>84fc0666-add8-4b4d-bd7e-0e1ac58572b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='↓'])[1]/preceding::div[6]</value>
+      <webElementGuid>1cf0812a-4acf-478c-a849-a8a880fd2b8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div</value>
+      <webElementGuid>30f9d7ee-f8d5-4a22-99f6-a35609a5e30c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Disengagement01/12 - 07/12' or . = 'Disengagement01/12 - 07/12')]</value>
+      <webElementGuid>c0d09b4b-1a17-40e7-892e-0dab92c7ed50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/div[2]/div/div/div/div/div</value>
+      <webElementGuid>a24b0911-efbd-4ce4-8258-fbdc3a4aece6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Groups'])[1]/following::div[6]</value>
+      <webElementGuid>97078b00-47c3-403d-ab8a-4d06692ce822</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Groups'])[1]/following::div[9]</value>
+      <webElementGuid>41df76bb-340d-46d5-ba31-4298e00b4bf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='↓'])[1]/preceding::div[8]</value>
+      <webElementGuid>5183a618-5ca5-491c-bf37-451d874b4961</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div</value>
+      <webElementGuid>d648a726-2ad5-4bb3-b4bb-6b823c47ab69</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

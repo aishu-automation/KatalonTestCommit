@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DrilldownUserAttributeAndCountValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d37e6343-46cf-42c0-baa2-425da3783424</testCaseGuid>
+</TestCaseEntity>

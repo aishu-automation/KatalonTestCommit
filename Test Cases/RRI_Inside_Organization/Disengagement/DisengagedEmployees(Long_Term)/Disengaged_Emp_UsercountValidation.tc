@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Disengaged_Emp_UsercountValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>818d3cb9-bef6-482f-8dd0-0ed7f94ba875</testCaseGuid>
+</TestCaseEntity>

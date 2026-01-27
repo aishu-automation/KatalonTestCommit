@@ -59,5 +59,12 @@ WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagem
 
 WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/RRI_ModuleVerificationPage/Page_ProHance AI - Retention Risk/div_Organization updated successfully'))
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/RRI_ModuleVerificationPage/Page_ProHance AI - Retention Risk/path'))
+//WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/RRI_ModuleVerificationPage/Page_ProHance AI - Retention Risk/path'))
 
+TestObject orgName = new TestObject('orgName')
+
+orgName.addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, '//div[contains(text(),"JAMTEC")]/./../../div[2]/div')
+
+WebUI.waitForElementClickable(orgName, 20)
+
+WebUI.click(orgName)

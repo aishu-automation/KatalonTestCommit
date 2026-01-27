@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DrilldownDefaultSelectionValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d6dfd993-3bb6-47b3-8a14-589de9fea062</testCaseGuid>
+</TestCaseEntity>

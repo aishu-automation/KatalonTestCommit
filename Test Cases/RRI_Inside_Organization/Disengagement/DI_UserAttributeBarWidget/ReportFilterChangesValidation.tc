@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ReportFilterChangesValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a32e958c-a5ac-4943-9cf8-da4574e3942a</testCaseGuid>
+</TestCaseEntity>

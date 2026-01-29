@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_r1</name>
+   <name>input_Username_r0</name>
    <tag></tag>
-   <elementGuidId>033d5eac-8d54-4142-9b3c-f3421179791b</elementGuidId>
+   <elementGuidId>23ab572a-e0a4-4d40-89b2-943c4f82a025</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#«r1»</value>
+         <key>XPATH</key>
+         <value>//input[@id='«r0»']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='«r1»']</value>
+         <key>CSS</key>
+         <value>#«r0»</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Password&quot;i</value>
+         <value>internal:label=&quot;Username&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>679aed07-4c49-49bf-83fc-8120eaabcf44</webElementGuid>
+      <webElementGuid>1cb9495b-e0bf-4aa7-8ce9-9c288f28b0a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +37,15 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d1b87c75-a004-4de9-ba5b-d2ccd05bd230</webElementGuid>
+      <webElementGuid>150c0929-6b60-41dd-babf-7aa0a3db7ebb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>«r1»</value>
-      <webElementGuid>89cc422a-751e-4621-b585-e5f10f389e19</webElementGuid>
+      <value>«r0»</value>
+      <webElementGuid>df325b76-3f6b-42b1-a6b1-05ba9246b43c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,62 +53,70 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiInputBase-input MuiOutlinedInput-input css-1pk1fka</value>
-      <webElementGuid>d3caf6c9-91e2-47a5-99a0-86d931995d6e</webElementGuid>
+      <webElementGuid>3005c412-76db-4cf7-a23a-8dfb44110840</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>a9f4a35b-1d6a-40c6-a468-4c1f0bb410d2</webElementGuid>
+      <value>text</value>
+      <webElementGuid>1cfe4e54-7f50-4661-b11a-f081664722ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>s</value>
+      <webElementGuid>8f4d76c2-ec33-4a19-93f2-cdf9ee89d25f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>e014f6c6-5f5d-4a13-b2a7-2b260e93ac1b</webElementGuid>
+      <value>username</value>
+      <webElementGuid>86218274-911c-45a6-b1d6-d2f32e48c233</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;«r1»&quot;)</value>
-      <webElementGuid>90f31684-5044-4666-94de-8b408ae3f0d1</webElementGuid>
+      <value>id(&quot;«r0»&quot;)</value>
+      <webElementGuid>383ab4a6-8166-4fee-bab3-e96435b7dccd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='«r1»']</value>
-      <webElementGuid>a6cae985-e7f1-4c60-a855-7069e820f27a</webElementGuid>
+      <value>//input[@id='«r0»']</value>
+      <webElementGuid>b1f03e80-a596-48f5-bb82-2484c2f2150f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/form/div[2]/div[2]/div/input</value>
-      <webElementGuid>458712b5-16cc-4333-8784-0978e4a6fdb9</webElementGuid>
+      <value>//div[@id='root']/div/form/div[2]/div/div/input</value>
+      <webElementGuid>10ad2d1a-7a76-4631-9548-9f0ca8cee239</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
-      <webElementGuid>c2d78468-ce0b-41cb-a501-4a2c2197b185</webElementGuid>
+      <value>//input</value>
+      <webElementGuid>5c58eaf5-2479-4901-b4e4-d51a5f9ee6df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = '«r1»' and @type = 'password' and @name = 'password']</value>
-      <webElementGuid>2b0b2501-7d76-42c2-add8-f94cf9290beb</webElementGuid>
+      <value>//input[@id = '«r0»' and @type = 'text' and @name = 'username']</value>
+      <webElementGuid>0fb0de92-6161-40d2-9b84-13596e589932</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DrilldownUserAttributeAndCountValidation</name>
+   <name>Drilldown</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>6ea69f62-6c25-41b7-9677-4aa8427d8b74</testCaseGuid>
+   <testCaseGuid>8da92aaa-0f7f-419d-a367-fa50edecb204</testCaseGuid>
 </TestCaseEntity>

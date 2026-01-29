@@ -16,28 +16,44 @@ class ExcelUtil {
 	 * @param extension File extension filter, e.g. "xlsx" (optional)
 	 * @return File object of the most recent file
 	 */
-	static File getMostRecentFile(String folderPath, String extension = null) {
-		File dir = new File(folderPath)
-		if (!dir.exists() || !dir.isDirectory()) {
-			throw new RuntimeException("Folder does not exist: " + folderPath)
-		}
+	static File getMostRecentFile(String folderPath, String extension = null, int timeoutSeconds = 30) {
+    File dir = new File(folderPath)
+    if (!dir.exists() || !dir.isDirectory()) {
+        throw new RuntimeException("Folder does not exist: " + folderPath)
+    }
 
-		// Groovy-friendly way to filter files
-		File[] files = dir.listFiles()?.findAll { f ->
-			!extension || f.name.toLowerCase().endsWith(extension.toLowerCase())
-		} as File[]
+    // Filter files by extension if provided
+    File[] files = dir.listFiles()?.findAll { f ->
+        !extension || f.name.toLowerCase().endsWith(extension.toLowerCase())
+    } as File[]
 
-		if (!files || files.length == 0) {
-			throw new RuntimeException(
-				"No files" + (extension ? " with extension '${extension}'" : "") + " found in folder: " + folderPath
-			)
-		}
+    if (!files || files.length == 0) {
+        throw new RuntimeException(
+            "No files" + (extension ? " with extension '${extension}'" : "") + " found in folder: " + folderPath
+        )
+    }
 
-		// Sort files by last modified date (newest first)
-		files.sort { -it.lastModified() }
+    // Sort files by last modified date (newest first)
+    files.sort { -it.lastModified() }
+    File latestFile = files[0]
 
-		return files[0] // most recently modified file
-	}
+    // Wait until file size stabilizes
+    long previousSize = -1
+    long currentSize = latestFile.length()
+    int waited = 0
+    while (previousSize != currentSize) {
+        if (waited >= timeoutSeconds) {
+            throw new RuntimeException("File not fully ready after ${timeoutSeconds} seconds: ${latestFile.name}")
+        }
+        previousSize = currentSize
+        Thread.sleep(1000)
+        waited++
+        currentSize = latestFile.length()
+    }
+
+    return latestFile
+}
+
 
 	/**
 	 * Reads a column from Excel and returns it as a List<String>

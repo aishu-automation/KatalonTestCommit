@@ -1,30 +1,19 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import org.openqa.selenium.interactions.Actions as Actions
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testobject.ConditionType as ConditionType
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
+import org.openqa.selenium.interactions.Actions
+
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import internal.GlobalVariable as GlobalVariable
-
 WebUI.callTestCase(findTestCase('Common/RRI/TC_RRI_LoginWithValidCretentials'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('RRI_Inside_Organization/Disengagement/DI_ModuleValidation'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_barChart_BreakupDrilldownByAttributeAndUserCountPage/Page_ProHance AI - Retention Risk/div_PH Demo (199 Server)'))
+CustomKeywords.'validation.DisengagementGlobalVariables.clickOrganizationByGlobalVar'('org_Name')
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_barChart_BreakupDrilldownByAttributeAndUserCountPage/Page_ProHance AI - Retention Risk/svg_By Super Groups (Top 5)_MuiSvgIcon-root_1f6b44'))
+WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_radicalChart_BreakupOverallDrilldownByAttributeAndUserCountPage/Page_ProHance AI - Retention Risk/svg_By Skill Set (Top 5)_MuiSvgIcon-root Mu_cb0f48'))
 
 TestObject bar = new TestObject('mediumBar')
 
@@ -84,7 +73,7 @@ expectedCheckboxState.each({ def label, def expectedState ->
         }
     })
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_barChart_BreakupDrilldownByAttributeAndUserCountPage/Page_ProHance AI - Retention Risk/div_Total Records 7Displaying 1 to 7'))
+WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_barChart_BreakupOverallDrilldownByAttributeAndUserCountPage/Page_ProHance AI - Retention Risk/div_Total Records 7Displaying 1 to 7'))
 
 TestObject totalRecordsObj = new TestObject('totalRecords')
 
@@ -103,7 +92,7 @@ String totalRecordsStr = matcher ? (matcher[0])[1] : '0'
 WebUI.comment('Total Records value: ' + totalRecordsStr)
 WebUI.verifyEqual(records, totalRecordsStr)
 
-String na = WebUI.getText(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_barChart_BreakupDrilldownByAttributeAndUserCountPage/Page_ProHance AI - Retention Risk/div_Product Support'))
+String na = WebUI.getText(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_barChart_BreakupOverallDrilldownByAttributeAndUserCountPage/Page_ProHance AI - Retention Risk/div_Product Support'))
 
 println(na)
 

@@ -3,7 +3,7 @@
    <description></description>
    <name>div_100</name>
    <tag></tag>
-   <elementGuidId>0e6679ff-6430-4a8b-906e-470db0a421cb</elementGuidId>
+   <elementGuidId>f19f94d8-4f0f-4012-976a-e00e77cba162</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -15,12 +15,6 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>internal:attr=[title=&quot;100&quot;i] >> internal:text=&quot;100&quot;i</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>2f2a623f-aed1-4acc-9023-55b7e4bcd849</webElementGuid>
+      <webElementGuid>0798d761-5403-487f-a25d-93e2312b55c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-select-item-option-content</value>
-      <webElementGuid>f05d29c3-5f78-429c-a24e-df667ec6e19b</webElementGuid>
+      <webElementGuid>e7be56e9-731a-4b23-8e58-e73f35c417d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>100</value>
-      <webElementGuid>cbb0d039-284b-4be0-90c1-7def12b2ee0a</webElementGuid>
+      <webElementGuid>ddaa0d9a-648b-4644-a918-c82d97b6be4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;drilldown-page&quot;]/div[2]/div[@class=&quot;ant-select-dropdown css-os2fvf ant-select-dropdown-placement-bottomLeft&quot;]/div[1]/div[@class=&quot;rc-virtual-list&quot;]/div[@class=&quot;rc-virtual-list-holder&quot;]/div[1]/div[@class=&quot;rc-virtual-list-holder-inner&quot;]/div[@class=&quot;ant-select-item ant-select-item-option ant-select-item-option-active&quot;]/div[@class=&quot;ant-select-item-option-content&quot;]</value>
-      <webElementGuid>1c73644c-bb6b-47d1-be73-a05d6a2b809d</webElementGuid>
+      <webElementGuid>9fec7777-1382-48c5-b4ba-06ea9e9676c9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© ProHance India Pvt. Ltd. 2009-2026'])[1]/following::div[18]</value>
-      <webElementGuid>237565db-4a83-4ee8-a870-5360e1f0c69a</webElementGuid>
+      <webElementGuid>bda210ff-f3eb-424c-8a68-e34ca59ccf3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes'])[1]/following::div[20]</value>
-      <webElementGuid>666d7bc7-b3b9-4920-837b-0ef0002ce1a7</webElementGuid>
+      <webElementGuid>41d0dfb8-4614-4003-848f-9ca2da43e1a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +71,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[4]/div</value>
-      <webElementGuid>6c8c0ee2-4f92-46eb-96d3-6e0513eafad4</webElementGuid>
+      <webElementGuid>7b1134dc-b25e-4781-888f-170f36a5bd83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +79,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '100' or . = '100')]</value>
-      <webElementGuid>3ca919d0-22eb-45c6-803e-1e9020c24497</webElementGuid>
+      <webElementGuid>d89d5802-567d-4808-9739-bc25830ff9ec</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

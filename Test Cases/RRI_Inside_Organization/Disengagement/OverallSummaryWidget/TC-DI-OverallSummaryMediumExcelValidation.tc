@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-DI-OverallSummaryMediumExcelValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e9bfb105-de5d-4cd4-8d78-8eaf9d70b64f</testCaseGuid>
+</TestCaseEntity>

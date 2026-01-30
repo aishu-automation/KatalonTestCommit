@@ -3,7 +3,7 @@
    <description></description>
    <name>span_10</name>
    <tag></tag>
-   <elementGuidId>b484d2c6-17e6-438d-a820-391f6006264c</elementGuidId>
+   <elementGuidId>bf2d477d-ff78-4b00-9a20-1637a3f9ec45</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -15,12 +15,6 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>#root >> internal:text=&quot;10&quot;s</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7564a128-bc87-4755-a4d1-aa87d9899697</webElementGuid>
+      <webElementGuid>8034d6ca-c363-4852-b7f4-b473f8b23839</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-select-selection-item</value>
-      <webElementGuid>93ef2061-fae8-4064-99e7-689c0f11511a</webElementGuid>
+      <webElementGuid>4133f8a7-9134-4ea8-9bd4-0ac8266c6d9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +39,7 @@
       <name>title</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>b51122db-8bba-430c-b10d-4a30d1fca0e7</webElementGuid>
+      <webElementGuid>ae59da95-35ea-4694-ad59-c57a7b362514</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>a4387303-183b-4827-a8b2-648e8e03b900</webElementGuid>
+      <webElementGuid>c1457523-3af5-4039-b18b-e42f7ee176a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;layout-root MuiBox-root css-0&quot;]/main[@class=&quot;main-content MuiBox-root css-19toco3&quot;]/div[@class=&quot;drilldown-container&quot;]/main[@class=&quot;main-drill&quot;]/div[@class=&quot;drilldown-toolbar&quot;]/div[@class=&quot;toolbar-left&quot;]/div[@class=&quot;ant-select ant-select-outlined css-os2fvf ant-select-single ant-select-show-arrow ant-select-open&quot;]/div[@class=&quot;ant-select-selector&quot;]/span[@class=&quot;ant-select-selection-wrap&quot;]/span[@class=&quot;ant-select-selection-item&quot;]</value>
-      <webElementGuid>e6d1c986-5565-45d8-8681-398bf8a68df2</webElementGuid>
+      <webElementGuid>b71778c6-56a7-4d14-aa05-bd222f8b2e7a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/main/div/main/div/div/div/div/span/span[2]</value>
-      <webElementGuid>a8fae2c3-4ce8-41e0-a61b-6a7f7dfcb6f5</webElementGuid>
+      <webElementGuid>e33974b6-8a80-43de-8a3b-e447a5ab378e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Records to display:'])[1]/following::span[3]</value>
-      <webElementGuid>50311d48-d5cc-4241-bfe5-6db60ddee7e4</webElementGuid>
+      <webElementGuid>de0af393-1e17-45cd-8f02-5d3615f91b96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fetch'])[1]/following::span[4]</value>
-      <webElementGuid>066a1191-347a-42b9-9cc2-6eff9f0e8e74</webElementGuid>
+      <webElementGuid>99b8bcb9-a0d8-43ab-8f32-ca31f0b00011</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::span[13]</value>
-      <webElementGuid>05f97d83-d6e9-455d-97ae-2cbd0db5359e</webElementGuid>
+      <webElementGuid>69e4f66f-d593-46d2-ba89-b42cacf88686</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='10']/parent::*</value>
-      <webElementGuid>327db458-6166-46dd-a07e-3fe0809f9451</webElementGuid>
+      <webElementGuid>d6618c27-dfd3-4d0e-9211-743715d0024b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//main/div/div/div/div/span/span[2]</value>
-      <webElementGuid>6edb2f4d-c534-4df9-b39a-c1e1df501708</webElementGuid>
+      <webElementGuid>0f9f7eba-a8c9-444e-95a4-dfc5fdab1c85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@title = '10' and (text() = '10' or . = '10')]</value>
-      <webElementGuid>e76f8f08-0e08-4ea6-934f-b3ca6d1e2df1</webElementGuid>
+      <webElementGuid>f6a47125-aa5f-469f-8e5c-71622ab06d4d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

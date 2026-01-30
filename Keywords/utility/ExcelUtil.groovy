@@ -17,33 +17,49 @@ class ExcelUtil {
 	 * @return File object of the most recent file
 	 */
 	static File getMostRecentFile(String folderPath, String extension = null, int timeoutSeconds = 30) {
+
     File dir = new File(folderPath)
     if (!dir.exists() || !dir.isDirectory()) {
         throw new RuntimeException("Folder does not exist: " + folderPath)
     }
 
-    // Filter files by extension if provided
-    File[] files = dir.listFiles()?.findAll { f ->
-        !extension || f.name.toLowerCase().endsWith(extension.toLowerCase())
+    // ---------- WAIT UNTIL CHROME FINISHES DOWNLOAD ----------
+    int wait = 0
+    while (wait < timeoutSeconds) {
+        boolean downloading = dir.listFiles()?.any { it.name.endsWith(".crdownload") }
+        if (!downloading) break
+        Thread.sleep(1000)
+        wait++
+    }
+
+    // ---------- FILTER FILES ----------
+    File[] files = dir.listFiles()?.findAll { File f ->
+        (!extension || f.name.toLowerCase().endsWith(extension.toLowerCase())) &&
+        !f.name.endsWith(".crdownload") &&
+        !f.name.startsWith("~\$")           // temp Excel files
     } as File[]
 
     if (!files || files.length == 0) {
         throw new RuntimeException(
-            "No files" + (extension ? " with extension '${extension}'" : "") + " found in folder: " + folderPath
+            "No files" + (extension ? " with extension '${extension}'" : "") +
+            " found in folder: " + folderPath
         )
     }
 
-    // Sort files by last modified date (newest first)
-    files.sort { -it.lastModified() }
+    // ---------- SORT BY LAST MODIFIED ----------
+    files.sort { b, a -> a.lastModified() <=> b.lastModified() }
     File latestFile = files[0]
 
-    // Wait until file size stabilizes
+    // ---------- WAIT UNTIL FILE SIZE STABILIZES ----------
     long previousSize = -1
     long currentSize = latestFile.length()
     int waited = 0
+
     while (previousSize != currentSize) {
         if (waited >= timeoutSeconds) {
-            throw new RuntimeException("File not fully ready after ${timeoutSeconds} seconds: ${latestFile.name}")
+            throw new RuntimeException(
+                "File not fully ready after ${timeoutSeconds} seconds: ${latestFile.name}"
+            )
         }
         previousSize = currentSize
         Thread.sleep(1000)
@@ -51,7 +67,18 @@ class ExcelUtil {
         currentSize = latestFile.length()
     }
 
-    return latestFile
+    // ---------- COPY FILE TO A SAFE WORKING FILE ----------
+    File workingFile = new File(
+        latestFile.parent + File.separator + "working_" + latestFile.name
+    )
+
+    java.nio.file.Files.copy(
+        latestFile.toPath(),
+        workingFile.toPath(),
+        java.nio.file.StandardCopyOption.REPLACE_EXISTING
+    )
+
+    return workingFile
 }
 
 

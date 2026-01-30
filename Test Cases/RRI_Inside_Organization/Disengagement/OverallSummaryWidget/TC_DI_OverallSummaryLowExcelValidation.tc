@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case (1)</name>
+   <name>TC_DI_OverallSummaryLowExcelValidation</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>7a347778-18cc-4b0f-8850-fcb7830505fc</testCaseGuid>
+   <testCaseGuid>434168c0-8c3d-4edb-a409-1a1f5ed80d22</testCaseGuid>
 </TestCaseEntity>

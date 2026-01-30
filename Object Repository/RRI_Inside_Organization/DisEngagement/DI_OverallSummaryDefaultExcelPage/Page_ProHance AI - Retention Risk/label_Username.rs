@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Username</name>
    <tag></tag>
-   <elementGuidId>f8b5cd17-03db-4f83-8ccd-4292904a0eff</elementGuidId>
+   <elementGuidId>23d1b45d-d953-448f-83f7-6245b494d833</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -15,12 +15,6 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorCollection>
-      <entry>
-         <key>SMART_LOCATOR</key>
-         <value>label >> internal:has-text=&quot;Username&quot;i</value>
-      </entry>
-   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -29,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>f08eaaec-ef69-46cb-8bf9-65209a0b1793</webElementGuid>
+      <webElementGuid>a0326ee0-57d3-4144-ab2d-bb07c1d6923c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary Mui-focused MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-1jstwst</value>
-      <webElementGuid>a79008f3-8334-460e-94f3-d76f8e39dbd4</webElementGuid>
+      <webElementGuid>31208718-c73a-4c95-9457-d4afc31a63f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +39,7 @@
       <name>data-shrink</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>f0b4c841-8434-471e-859d-993c619c5485</webElementGuid>
+      <webElementGuid>c1c8001f-4538-4225-a775-b2a85cf9f13c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +47,7 @@
       <name>for</name>
       <type>Main</type>
       <value>«r0»</value>
-      <webElementGuid>80d98bf1-675e-48b8-954b-5e9bba79d960</webElementGuid>
+      <webElementGuid>a055e9e5-58c0-481d-a155-1a008b0dedeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +55,7 @@
       <name>id</name>
       <type>Main</type>
       <value>«r0»-label</value>
-      <webElementGuid>de668dbb-1ef1-4c32-ae41-bb468bd0a4e9</webElementGuid>
+      <webElementGuid>9e27bfde-483d-48aa-9ab8-656b4ed5aac0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +63,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Username</value>
-      <webElementGuid>fdcd47d3-de48-44fa-8922-7493ddf50c8f</webElementGuid>
+      <webElementGuid>d73ea617-f5f7-469b-a097-bed7488b7799</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;«r0»-label&quot;)</value>
-      <webElementGuid>3101e434-219c-4c54-9ef6-79eb4d173d64</webElementGuid>
+      <webElementGuid>2e00c213-d5d4-4dc4-b769-f6528506b2eb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//label[@id='«r0»-label']</value>
-      <webElementGuid>e876ffa9-79ce-4e60-80b2-00077e81a7d4</webElementGuid>
+      <webElementGuid>6d78a6b6-3050-4c2e-80d6-994d8739b974</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/form/div[2]/div/label</value>
-      <webElementGuid>93e7ce42-2ba7-4c00-8916-f287062dfbc8</webElementGuid>
+      <webElementGuid>036ae32f-d052-4f6d-a986-eaae630aae40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ARTIFICIAL INTELLIGENCE'])[1]/following::label[1]</value>
-      <webElementGuid>f159dd87-5e86-4578-b8be-a4333086dc7a</webElementGuid>
+      <webElementGuid>6eee2aee-1bf8-4a81-b9a6-78dc96c8aeb6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[2]/preceding::label[1]</value>
-      <webElementGuid>1d04ef63-247d-4d16-bf35-c0c45bbf8525</webElementGuid>
+      <webElementGuid>5b253fb3-f40c-49da-853b-363ed66886ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::label[1]</value>
-      <webElementGuid>9395cf1c-f505-470f-a4c3-282633a5d161</webElementGuid>
+      <webElementGuid>04570c0e-bedc-4ef0-8da0-9bf46283b9dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Username']/parent::*</value>
-      <webElementGuid>88078335-dc15-44ff-b896-f0caa58beac9</webElementGuid>
+      <webElementGuid>f734fd22-7fd5-4d21-8a51-55e48d22ee98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label</value>
-      <webElementGuid>0a887454-85b9-47aa-967b-569a597b1f31</webElementGuid>
+      <webElementGuid>b16f65e7-625a-4a53-82fd-6f8c1e99a1af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +135,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[@id = '«r0»-label' and (text() = 'Username' or . = 'Username')]</value>
-      <webElementGuid>04d353c8-7f64-46fc-9bd0-558a16de6a96</webElementGuid>
+      <webElementGuid>172e327a-eb16-4eb8-ae87-6280af924201</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

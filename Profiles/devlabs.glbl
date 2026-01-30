@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://devlab.prohance.ai:8000/prohanceai/organization'</initValue>
+      <initValue>'https://devlab.prohance.ai:8000/prohanceai/v3/organization'</initValue>
       <name>url</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

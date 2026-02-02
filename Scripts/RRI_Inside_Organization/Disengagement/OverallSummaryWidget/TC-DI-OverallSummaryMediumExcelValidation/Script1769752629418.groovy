@@ -28,28 +28,19 @@ WebUI.callTestCase(findTestCase('Common/RRI/TC_RRI_LoginWithValidCretentials'), 
 WebUI.callTestCase(findTestCase('RRI_Inside_Organization/Disengagement/DI_ModuleValidation'), [:], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'validation.DisengagementGlobalVariables.clickOrganizationByGlobalVar'('org_Name')
+WebUI.waitForPageLoad(20)
 
-WebUI.waitForPageLoad(30)
-
-WebUI.delay(3)
-
-TestObject mediumLink = new TestObject('mediumLink')
-mediumLink.addProperty(
-	'xpath',
-	ConditionType.EQUALS,
-	"//div[contains(normalize-space(.),'Medium')]/../div[2]/span[1]"
+// Wait for chart container
+TestObject chartContainer = new TestObject()
+chartContainer.addProperty(
+	"xpath",
+	com.kms.katalon.core.testobject.ConditionType.EQUALS,
+	"(//div[contains(@class,'apexcharts-canvas')])[2]"
 )
-
-WebUI.waitForElementPresent(mediumLink, 30)
-WebUI.scrollToElement(mediumLink, 5)
-WebUI.delay(1)
-
-WebUI.executeJavaScript(
-	'arguments[0].click();',
-	Arrays.asList(WebUI.findWebElement(mediumLink, 10))
-)
-
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryMediumPage/Page_ProHance AI - Retention Risk/div_Medium_1'))
+WebUI.waitForElementVisible(chartContainer, 15)
+WebUI.waitForElementClickable(chartContainer, 15)
+// Click chart
+WebUI.click(chartContainer)
 
 WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryHighExcelPage/Page_ProHance AI - Retention Risk/span_10'))
 

@@ -67,4 +67,3 @@ orgName.addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUAL
 
 WebUI.waitForElementClickable(orgName, 20)
 
-WebUI.click(orgName)

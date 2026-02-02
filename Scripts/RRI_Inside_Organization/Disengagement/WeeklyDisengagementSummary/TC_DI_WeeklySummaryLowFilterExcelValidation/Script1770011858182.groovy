@@ -17,6 +17,8 @@ import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 
 import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -26,14 +28,19 @@ WebUI.callTestCase(findTestCase('Common/RRI/TC_RRI_LoginWithValidCretentials'), 
 WebUI.callTestCase(findTestCase('RRI_Inside_Organization/Disengagement/DI_ModuleValidation'), [:], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'validation.DisengagementGlobalVariables.clickOrganizationByGlobalVar'('org_Name')
+TestObject low = new TestObject('low')
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryDefaultExcelPage/Page_ProHance AI - Retention Risk/svg_Disengagement_MuiSvgIcon-root MuiSvgIco_98517e'))
+low.addProperty('xpath', ConditionType.EQUALS, '(//*[@class=\'apexcharts-series-markers\']/../*[1]//*[name()=\'path\'])[1]')
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryDefaultExcelPage/Page_ProHance AI - Retention Risk/span_10'))
+WebUI.waitForElementClickable(low, 20)
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryDefaultExcelPage/Page_ProHance AI - Retention Risk/div_100'))
+WebUI.click(low)
+WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_WeeklyDisengagementSummaryLowExcelPage/Page_ProHance AI - Retention Risk/span_10'))
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryHighExcelPage/Page_ProHance AI - Retention Risk/span_Username'))
+WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_WeeklyDisengagementSummaryLowExcelPage/Page_ProHance AI - Retention Risk/div_100'))
+
+WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_WeeklyDisengagementSummaryLowExcelPage/Page_ProHance AI - Retention Risk/span_Username'))
+
 
 WebDriver driver = DriverFactory.getWebDriver()
 
@@ -102,7 +109,8 @@ return colors;
 
 println "✅ UI data collected:"
 uiDataList.each { println it }
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryHighExcelPage/Page_ProHance AI - Retention Risk/span_Computed till01 Dec 2025 - 07 Dec 2025_20277c'))
+
+WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_WeeklyDisengagementSummaryLowExcelPage/Page_ProHance AI - Retention Risk/svg'))
 String downloadPath = 'C:\\Users\\aishwarya.k\\Downloads'
 File sourceFile = CustomKeywords.'utility.ExcelUtil.getMostRecentFile'(downloadPath, ".xlsx")
 File workingFile = new File(downloadPath + "\\working_" + sourceFile.name)
@@ -257,5 +265,8 @@ excelDataList.each { excelRow ->
 }
 
 println "✅ UI vs Excel comparison completed!"
-
 WebUI.closeBrowser()
+
+
+
+

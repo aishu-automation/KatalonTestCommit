@@ -13,7 +13,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://10.10.10.188:5173/prohanceai/dashboards'</initValue>
+      <initValue>'http://10.10.10.108:5173/prohanceai/v3/dashboard'</initValue>
       <name>url</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

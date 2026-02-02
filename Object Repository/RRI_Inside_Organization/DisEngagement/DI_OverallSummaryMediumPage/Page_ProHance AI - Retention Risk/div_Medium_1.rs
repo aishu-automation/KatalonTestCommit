@@ -6,12 +6,12 @@
    <elementGuidId>13055afa-8302-4bba-94ad-211e1f01320c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.filter-group > div > div:nth-of-type(2)</value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/main/div/aside/div/div/div/div[2]</value>
+         <key>CSS</key>
+         <value>div.filter-group > div > div:nth-of-type(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ce9f9dcf-4822-47ca-bb83-8477103277fd</webElementGuid>
+      <webElementGuid>f6ed22bd-cfa4-41c5-9542-e3c319419419</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Medium</value>
-      <webElementGuid>ac018ac6-f8c0-4cb7-b70f-4b4e7ea5c63d</webElementGuid>
+      <webElementGuid>6c4bb895-be68-4741-8367-46d1ef4b2b8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;layout-root MuiBox-root css-0&quot;]/main[@class=&quot;main-content MuiBox-root css-19toco3&quot;]/div[@class=&quot;drilldown-container&quot;]/aside[@class=&quot;sidebar&quot;]/div[@class=&quot;filter-section&quot;]/div[@class=&quot;filter-group&quot;]/div[1]/div[2]</value>
-      <webElementGuid>1b4dbc2d-282d-4b19-a2fd-51a7a122681d</webElementGuid>
+      <webElementGuid>e06c6d35-0b5c-4436-b895-4a120dcd47ff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/main/div/aside/div/div/div/div[2]</value>
-      <webElementGuid>b98ede15-1001-40b9-9d92-e4eeeeea2b14</webElementGuid>
+      <webElementGuid>6a8c5f03-484b-48e3-8dee-fc4ad05b8d00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='High'])[1]/following::div[1]</value>
-      <webElementGuid>4b60c1ab-81aa-47f6-b543-ab631a52f5ec</webElementGuid>
+      <webElementGuid>a87df90d-c4e7-4b30-af36-1814e3e20f98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Disengagement'])[1]/following::div[3]</value>
-      <webElementGuid>4b18662f-12d8-442c-959f-c80311b5be3c</webElementGuid>
+      <webElementGuid>64b5f90d-04ff-4e46-9800-80c728a72f57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Low'])[1]/preceding::div[1]</value>
-      <webElementGuid>827571d5-acba-4784-b7c7-88c655024794</webElementGuid>
+      <webElementGuid>ca44e9b6-aa58-4888-bddd-001e2f6ce3c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div[2]</value>
-      <webElementGuid>45bc01ea-cc53-4e9c-832c-ac98256a3da3</webElementGuid>
+      <webElementGuid>50415adb-3fc6-4dca-965b-d79a04c0f647</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Medium' or . = 'Medium')]</value>
-      <webElementGuid>4138e7e5-47f0-4a0d-b867-520ba236c170</webElementGuid>
+      <webElementGuid>1440d682-6f57-4cc7-9f01-8eca2381baa3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DI_WeeklySummaryLowFilterExcelValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d099b73-24e5-48d0-adec-8c6c0c1b904a</testCaseGuid>
+</TestCaseEntity>

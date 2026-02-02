@@ -1,12 +1,10 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import java.nio.file.Files
 import java.nio.file.StandardCopyOption
 
 import org.apache.poi.openxml4j.opc.OPCPackage
 import org.apache.poi.openxml4j.opc.PackageAccess
-import org.apache.poi.ss.usermodel.Cell
 import org.apache.poi.ss.usermodel.DataFormatter
 import org.apache.poi.ss.usermodel.Row
 import org.apache.poi.ss.usermodel.Sheet
@@ -16,7 +14,12 @@ import org.openqa.selenium.JavascriptExecutor
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 
+import org.apache.poi.ss.usermodel.Cell
+import java.nio.file.Files
+import java.nio.file.StandardCopyOption
 import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -26,14 +29,20 @@ WebUI.callTestCase(findTestCase('Common/RRI/TC_RRI_LoginWithValidCretentials'), 
 WebUI.callTestCase(findTestCase('RRI_Inside_Organization/Disengagement/DI_ModuleValidation'), [:], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'validation.DisengagementGlobalVariables.clickOrganizationByGlobalVar'('org_Name')
+TestObject high = new TestObject('high')
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryDefaultExcelPage/Page_ProHance AI - Retention Risk/svg_Disengagement_MuiSvgIcon-root MuiSvgIco_98517e'))
+high.addProperty('xpath', ConditionType.EQUALS, '(//*[@class=\'apexcharts-series-markers\']/../*[1]//*[name()=\'path\'])[5]')
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryDefaultExcelPage/Page_ProHance AI - Retention Risk/span_10'))
+WebUI.waitForElementClickable(high, 20)
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryDefaultExcelPage/Page_ProHance AI - Retention Risk/div_100'))
+WebUI.click(high)
+
+WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryHighExcelPage/Page_ProHance AI - Retention Risk/span_10'))
+
+WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryHighExcelPage/Page_ProHance AI - Retention Risk/div_100'))
 
 WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryHighExcelPage/Page_ProHance AI - Retention Risk/span_Username'))
+
 
 WebDriver driver = DriverFactory.getWebDriver()
 
@@ -103,6 +112,10 @@ return colors;
 println "✅ UI data collected:"
 uiDataList.each { println it }
 WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryHighExcelPage/Page_ProHance AI - Retention Risk/span_Computed till01 Dec 2025 - 07 Dec 2025_20277c'))
+
+WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryHighExcelPage/Page_ProHance AI - Retention Risk/span_Computed till01 Dec 2025 - 07 Dec 2025_20277c'))
+//WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryHighExcelPage/Page_ProHance AI - Retention Risk/button_Computed till01 Dec 2025 - 07 Dec 20_3129d6'))
+// ================= STEP 3: DOWNLOAD & CLEAN EXCEL =================
 String downloadPath = 'C:\\Users\\aishwarya.k\\Downloads'
 File sourceFile = CustomKeywords.'utility.ExcelUtil.getMostRecentFile'(downloadPath, ".xlsx")
 File workingFile = new File(downloadPath + "\\working_" + sourceFile.name)
@@ -257,5 +270,5 @@ excelDataList.each { excelRow ->
 }
 
 println "✅ UI vs Excel comparison completed!"
-
 WebUI.closeBrowser()
+

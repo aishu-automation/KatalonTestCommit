@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DI_WeeklySummaryMediumFilterExcelValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e3e85021-9e81-4dd8-b264-22aeb528201d</testCaseGuid>
+</TestCaseEntity>

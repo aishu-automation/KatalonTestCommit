@@ -20,26 +20,20 @@ String high = WebUI.getText(highText)
 
 println("Text of high element: " + high)
 
-WebUI.waitForPageLoad(30)
-WebUI.delay(3)
+WebUI.waitForPageLoad(20)
 
-
-TestObject highLink = new TestObject('highLink')
-highLink.addProperty(
-	'xpath',
-	ConditionType.EQUALS,
-	"//div[contains(normalize-space(.),'High')]/../div[2]/span[1]"
-) 
-
-WebUI.waitForElementPresent(highLink, 30)
-WebUI.scrollToElement(highLink, 5)
-WebUI.delay(1)
-
-WebUI.executeJavaScript(
-	'arguments[0].click();',
-	Arrays.asList(WebUI.findWebElement(highLink, 10))
+// Wait for chart container
+TestObject chartContainer = new TestObject()
+chartContainer.addProperty(
+	"xpath",
+	com.kms.katalon.core.testobject.ConditionType.EQUALS,
+	"(//div[contains(@class,'apexcharts-canvas')])[1]"
 )
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryHighPage/Page_ProHance AI - Retention Risk/circle_Disengagement_apexcharts-radialbar-hollow'))
+WebUI.waitForElementVisible(chartContainer, 15)
+WebUI.waitForElementClickable(chartContainer, 15)
+// Click chart
+WebUI.click(chartContainer)
+
 def expectedCheckboxState = [
 	'High'   : true,
 	'Medium' : false,

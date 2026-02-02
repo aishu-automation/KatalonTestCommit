@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Long_term_LabelValidation</name>
+   <name>TC_Disengaged_Emp_UsercountValidation</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>269c99fb-aa67-4d0c-8667-05c1e881bf16</testCaseGuid>
+   <testCaseGuid>818d3cb9-bef6-482f-8dd0-0ed7f94ba875</testCaseGuid>
 </TestCaseEntity>

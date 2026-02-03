@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DrilldownUserAttributeAndCountValidation</name>
+   <name>TC_DrilldownUserAttributeAndCountExcelValidation</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>6ea69f62-6c25-41b7-9677-4aa8427d8b74</testCaseGuid>
+   <testCaseGuid>9804b322-43e1-4520-adee-a9ebe2b8dfb8</testCaseGuid>
 </TestCaseEntity>

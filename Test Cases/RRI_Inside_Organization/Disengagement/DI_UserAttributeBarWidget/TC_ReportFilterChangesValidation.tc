@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DrilldownDefaultSelectionValidation</name>
+   <name>TC_ReportFilterChangesValidation</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>d6dfd993-3bb6-47b3-8a14-589de9fea062</testCaseGuid>
+   <testCaseGuid>a32e958c-a5ac-4943-9cf8-da4574e3942a</testCaseGuid>
 </TestCaseEntity>

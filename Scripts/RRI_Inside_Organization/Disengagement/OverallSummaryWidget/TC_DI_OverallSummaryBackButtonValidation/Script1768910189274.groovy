@@ -31,15 +31,31 @@ WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagem
 
 WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryBackButtonPage/Page_ProHance AI - Retention Risk/div_High'))
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryBackButtonPage/Page_ProHance AI - Retention Risk/circle_Disengagement_apexcharts-radialbar-hollow'))
+TestObject chartContainer = new TestObject()
+chartContainer.addProperty(
+	"xpath",
+	com.kms.katalon.core.testobject.ConditionType.EQUALS,
+	"(//div[contains(@class,'apexcharts-canvas')])[1]"
+)
+WebUI.waitForElementVisible(chartContainer, 15)
+WebUI.waitForElementClickable(chartContainer, 15)
+// Click chart
+WebUI.click(chartContainer)
 
 WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryBackButtonPage/Page_ProHance AI - Retention Risk/ol_DashboardRecord'))
 
 WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryBackButtonPage/Page_ProHance AI - Retention Risk/button_Select Value_MuiButtonBase-root MuiI_77586b'))
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryBackButtonPage/Page_ProHance AI - Retention Risk/div_Medium'))
-
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryBackButtonPage/Page_ProHance AI - Retention Risk/circle_Disengagement_apexcharts-radialbar-hollow'))
+TestObject chartContainer1 = new TestObject()
+chartContainer1.addProperty(
+	"xpath",
+	com.kms.katalon.core.testobject.ConditionType.EQUALS,
+	"(//div[contains(@class,'apexcharts-canvas')])[2]"
+)
+WebUI.waitForElementVisible(chartContainer1, 15)
+WebUI.waitForElementClickable(chartContainer1, 15)
+// Click chart
+WebUI.click(chartContainer1)
 
 WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryBackButtonPage/Page_ProHance AI - Retention Risk/ol_DashboardRecord'))
 
@@ -47,7 +63,16 @@ WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagem
 
 WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryBackButtonPage/Page_ProHance AI - Retention Risk/div_Low'))
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryBackButtonPage/Page_ProHance AI - Retention Risk/circle_Disengagement_apexcharts-radialbar-hollow'))
+TestObject chartContainer2 = new TestObject()
+chartContainer2.addProperty(
+	"xpath",
+	com.kms.katalon.core.testobject.ConditionType.EQUALS,
+	"(//div[contains(@class,'apexcharts-canvas')])[2]"
+)
+WebUI.waitForElementVisible(chartContainer2, 15)
+WebUI.waitForElementClickable(chartContainer2, 15)
+// Click chart
+WebUI.click(chartContainer2)
 
 WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/DI_OverallSummaryBackButtonPage/Page_ProHance AI - Retention Risk/svg_Select Value_MuiSvgIcon-root MuiSvgIcon_6582a7'))
 

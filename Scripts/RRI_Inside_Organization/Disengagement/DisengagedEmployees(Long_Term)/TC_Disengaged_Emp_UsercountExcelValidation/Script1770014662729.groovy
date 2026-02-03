@@ -287,9 +287,5 @@ return colors;
 	WebUI.waitForElementVisible(labelObj, 10)
 }
 
-
-
-
-
-//WebUI.closeBrowser()
+WebUI.closeBrowser()
 

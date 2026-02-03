@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ReportFilterChangesValidation</name>
+   <name>TC_DrilldownUserAttributeAndCountValidation</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a32e958c-a5ac-4943-9cf8-da4574e3942a</testCaseGuid>
+   <testCaseGuid>6ea69f62-6c25-41b7-9677-4aa8427d8b74</testCaseGuid>
 </TestCaseEntity>

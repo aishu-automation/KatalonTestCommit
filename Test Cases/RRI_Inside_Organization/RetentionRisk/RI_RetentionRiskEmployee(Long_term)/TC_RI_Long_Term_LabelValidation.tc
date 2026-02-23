@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RI_Long_Term_LabelValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1888eef6-bd87-4e4d-aaf8-c08ca2246088</testCaseGuid>
+</TestCaseEntity>

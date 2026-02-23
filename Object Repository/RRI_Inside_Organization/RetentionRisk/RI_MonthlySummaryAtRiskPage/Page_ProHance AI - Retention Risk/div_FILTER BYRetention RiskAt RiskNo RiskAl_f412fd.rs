@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_FILTER BYRetention RiskAt RiskNo RiskAl_f412fd</name>
+   <tag></tag>
+   <elementGuidId>f337b573-3d2f-4881-89fc-0ca8ab7f9862</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.filter-section</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/aside/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1faf5ade-1630-4366-aaee-ddb0c0cfbe26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>filter-section</value>
+      <webElementGuid>7ce4b2d4-1403-4d5c-973e-d59504c5be18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>FILTER BY:Retention RiskAt RiskNo RiskAll GroupsSelect AttributeSelect ValueResetFetch</value>
+      <webElementGuid>6316bffc-bb81-4a79-8417-52ee1a5506f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;layout-root MuiBox-root css-0&quot;]/main[@class=&quot;main-content MuiBox-root css-19toco3&quot;]/div[@class=&quot;drilldown-container&quot;]/aside[@class=&quot;sidebar&quot;]/div[@class=&quot;filter-section&quot;]</value>
+      <webElementGuid>c03ec35b-d3c9-4b2b-8ed1-fe37746fa4a6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/aside/div</value>
+      <webElementGuid>dd08f93e-83b3-4ed3-bebf-fd4d07a1ce59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employees'])[1]/following::div[1]</value>
+      <webElementGuid>e5aaf8ea-e599-473e-9754-14daabf3a8c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Record'])[1]/following::div[1]</value>
+      <webElementGuid>5a2e579f-2886-4a46-8c5d-77bf3d9a4088</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside/div</value>
+      <webElementGuid>a0ebd6d4-8cef-4dfa-97d6-b40fa2e3b119</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'FILTER BY:Retention RiskAt RiskNo RiskAll GroupsSelect AttributeSelect ValueResetFetch' or . = 'FILTER BY:Retention RiskAt RiskNo RiskAll GroupsSelect AttributeSelect ValueResetFetch')]</value>
+      <webElementGuid>c50c8ec3-8d96-47cd-a839-9bd92b7fc013</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

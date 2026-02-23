@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RRI_RetentionRiskOverallSummaryAtRiskDrilldownValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3237da42-e21d-4a88-9dfc-696791ddab21</testCaseGuid>
+</TestCaseEntity>

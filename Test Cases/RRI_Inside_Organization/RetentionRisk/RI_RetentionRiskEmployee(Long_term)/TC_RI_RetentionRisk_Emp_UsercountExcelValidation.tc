@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RI_RetentionRisk_Emp_UsercountExcelValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bdb0b658-3b8a-433e-9959-8d0dcb1908b4</testCaseGuid>
+</TestCaseEntity>

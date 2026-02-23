@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RRI_WeeklySummaryMediumFilterValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3c7f6d9-816c-4670-93c1-afbfb6fce9b9</testCaseGuid>
+</TestCaseEntity>

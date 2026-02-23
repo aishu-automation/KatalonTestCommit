@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RRI_EnableRIModule</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>980ddf8f-2791-4d02-9a54-c470ca2b679f</testCaseGuid>
+</TestCaseEntity>

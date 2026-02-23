@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RI_EventCRUDValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2702e56f-47e4-4824-a7e4-0f9325d86de4</testCaseGuid>
+</TestCaseEntity>

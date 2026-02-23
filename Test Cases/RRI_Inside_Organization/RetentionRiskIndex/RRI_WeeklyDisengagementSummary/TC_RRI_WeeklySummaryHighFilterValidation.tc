@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RRI_WeeklySummaryHighFilterValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4e1a36a4-485e-4220-bc4c-99167342b0e5</testCaseGuid>
+</TestCaseEntity>

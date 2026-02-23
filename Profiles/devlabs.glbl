@@ -3,7 +3,7 @@
    <description></description>
    <name>devlabs</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://devlab.prohance.ai:8000/prohanceai/v3/organization'</initValue>
@@ -27,7 +27,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'PH Demo (199 Server)'</initValue>
+      <initValue>'PH Services (Tech Team)'</initValue>
       <name>org_Name</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -36,6 +36,13 @@
       <description></description>
       <initValue>'//div[contains(text(),&quot;PH Demo 199&quot;)]'</initValue>
       <name>org_Name_drilldown</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Functions'</initValue>
+      <name>superGroup</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>

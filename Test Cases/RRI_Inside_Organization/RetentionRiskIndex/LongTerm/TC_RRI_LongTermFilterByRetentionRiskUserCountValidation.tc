@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RRI_LongTermFilterByRetentionRiskUserCountValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>36cf3c59-966b-46cc-9d43-d30dce85e9b2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RI_MonthlySummaryAtRiskValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>128045b9-4a48-445d-8793-380de127ee17</testCaseGuid>
+</TestCaseEntity>

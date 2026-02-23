@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>main_Records to display10Computed for Dec -_9c3d4d</name>
+   <tag></tag>
+   <elementGuidId>2d0037b0-d7d6-4759-b892-2a5ec4faa938</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>main.main-drill</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/main</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>main</value>
+      <webElementGuid>b238e078-64ac-46b9-b2fc-ee5aa159a7e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>main-drill</value>
+      <webElementGuid>5379fe98-cccb-4181-a525-9fdc8f6d52dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Records to display:10Computed for Dec - 2024UsernameEmployee IDUser GroupRetention Risk (12 M)Richard ReepUS SalesKhiv Singh SewadUS SalesPankaj SutraJ0337Digital SalesNitin PanickerJ0093Enterprise SalesSatheesh KumarJ0116SEA SalesSaksham ChaturvediJ0152Enterprise SalesDurga BJ0196Digital SalesGunnar AgarwalJ0200Enterprise SalesAishwarya S BJ0225Digital SalesAnshul MittalJ0256Digital SalesTotal Records: 100Displaying 1 to 10Notes12345•••1010 / page</value>
+      <webElementGuid>740b345b-a7a2-4e08-879c-c0f3875fd95e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;layout-root MuiBox-root css-0&quot;]/main[@class=&quot;main-content MuiBox-root css-19toco3&quot;]/div[@class=&quot;drilldown-container&quot;]/main[@class=&quot;main-drill&quot;]</value>
+      <webElementGuid>413c7403-6752-4c3c-80e6-138e1e9e7992</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/main</value>
+      <webElementGuid>2ae1cf91-253d-41dc-a70a-093480c0c524</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fetch'])[1]/following::main[1]</value>
+      <webElementGuid>85250bfc-437b-4d99-b2c4-18b56270c879</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/following::main[1]</value>
+      <webElementGuid>1b2a6680-4e0c-4b27-8ada-cfbfc40cb890</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/main</value>
+      <webElementGuid>4449eafe-c0d0-4b10-b2ab-c7623c4b16d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//main[(text() = 'Records to display:10Computed for Dec - 2024UsernameEmployee IDUser GroupRetention Risk (12 M)Richard ReepUS SalesKhiv Singh SewadUS SalesPankaj SutraJ0337Digital SalesNitin PanickerJ0093Enterprise SalesSatheesh KumarJ0116SEA SalesSaksham ChaturvediJ0152Enterprise SalesDurga BJ0196Digital SalesGunnar AgarwalJ0200Enterprise SalesAishwarya S BJ0225Digital SalesAnshul MittalJ0256Digital SalesTotal Records: 100Displaying 1 to 10Notes12345•••1010 / page' or . = 'Records to display:10Computed for Dec - 2024UsernameEmployee IDUser GroupRetention Risk (12 M)Richard ReepUS SalesKhiv Singh SewadUS SalesPankaj SutraJ0337Digital SalesNitin PanickerJ0093Enterprise SalesSatheesh KumarJ0116SEA SalesSaksham ChaturvediJ0152Enterprise SalesDurga BJ0196Digital SalesGunnar AgarwalJ0200Enterprise SalesAishwarya S BJ0225Digital SalesAnshul MittalJ0256Digital SalesTotal Records: 100Displaying 1 to 10Notes12345•••1010 / page')]</value>
+      <webElementGuid>4ea4083e-a494-457a-8afe-e9074366f474</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

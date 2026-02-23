@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RRI_DisengagementLowAndRetentionAtRiskValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f1bdffef-fe6f-44a7-aa80-75b13275a202</testCaseGuid>
+</TestCaseEntity>

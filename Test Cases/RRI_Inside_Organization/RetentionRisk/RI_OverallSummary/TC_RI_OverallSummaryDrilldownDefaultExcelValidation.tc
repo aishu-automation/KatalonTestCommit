@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RI_OverallSummaryDrilldownDefaultExcelValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>258b5e7a-acec-4820-bbc9-7d46ea2cbb47</testCaseGuid>
+</TestCaseEntity>

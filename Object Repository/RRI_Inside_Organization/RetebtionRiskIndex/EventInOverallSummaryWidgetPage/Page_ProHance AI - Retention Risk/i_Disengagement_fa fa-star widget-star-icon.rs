@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Disengagement_fa fa-star widget-star-icon</name>
+   <tag></tag>
+   <elementGuidId>1224af55-fde3-4376-badd-0edb4b446239</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-star.widget-star-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/div[2]/div/div/div/div/div/div/div/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=main >> i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>b99d00e9-674c-44a5-bafa-4c2b713dbd2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-star widget-star-icon</value>
+      <webElementGuid>163cf673-ae59-44de-b9a2-7a0c99136533</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;layout-root MuiBox-root css-0&quot;]/main[@class=&quot;main-content MuiBox-root css-19toco3&quot;]/div[@class=&quot;dashboard&quot;]/div[@class=&quot;dashboard-container&quot;]/div[@class=&quot;dashboard-grid&quot;]/div[@class=&quot;ant-row dashboard-row css-dev-only-do-not-override-os2fvf&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-md-8 ant-col-lg-5 css-dev-only-do-not-override-os2fvf&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 dashboard-card-1 css-1gtchvp-MuiPaper-root&quot;]/div[@class=&quot;third-row-chart-title&quot;]/div[1]/div[1]/div[@class=&quot;subtitle&quot;]/i[@class=&quot;fa fa-star widget-star-icon&quot;]</value>
+      <webElementGuid>eca1e859-9437-4cad-b931-d6efadc76b55</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/div[2]/div/div/div/div/div/div/div/div/i</value>
+      <webElementGuid>1966c132-f50d-493d-9974-f64439306754</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/i</value>
+      <webElementGuid>e2ef2f5b-8172-4bc9-bc9e-2b852643c779</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

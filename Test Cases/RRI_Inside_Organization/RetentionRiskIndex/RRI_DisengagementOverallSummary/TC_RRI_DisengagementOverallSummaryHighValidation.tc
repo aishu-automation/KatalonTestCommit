@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RRI_DisengagementOverallSummaryHighValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a6c94ad0-19c3-4635-a1f7-4f32495c2d10</testCaseGuid>
+</TestCaseEntity>

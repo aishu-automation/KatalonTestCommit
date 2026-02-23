@@ -1,19 +1,27 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
+import internal.GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/RRI_ModuleVerificationPage/Page_ProHance AI - Retention Risk/a_General'))
+println("org name"+ GlobalVariable.org_Name)
+String orgNameText = GlobalVariable.org_Name
+WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/RRI_DI_ModuleVerificationPage/Page_ProHance AI - Retention Risk/a_General'))
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/RRI_ModuleVerificationPage/Page_ProHance AI - Retention Risk/svg__MuiSvgIcon-root MuiSvgIcon-fontSizeMed_571381'))
+TestObject modifyButton = new TestObject("ModifyButton")
+modifyButton.addProperty(
+	"xpath",
+	ConditionType.EQUALS,
+	"//div[contains(text(),'" + orgNameText + "')]/../../div[1]/div/span[1]"
+)
 
-
+// Wait until clickable and click
+WebUI.waitForElementClickable(modifyButton, 20)
+WebUI.click(modifyButton)
+WebUI.comment("✅ Clicked Modify for org: " + orgNameText)
 
 // ----------------- Test Objects -----------------
 TestObject disengagementCheckbox = new TestObject("DisengagementCheckbox")
@@ -54,14 +62,19 @@ if (retentionChecked) {
 } else {
     WebUI.comment("ℹ️ Retention Risk already disabled")
 }
-//WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/RRI_ModuleVerificationPage/Page_ProHance AI - Retention Risk/button_Login'))
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/RRI_ModuleVerificationPage/Page_ProHance AI - Retention Risk/button_Update Organization'))
+//WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/RRI_DI_ModuleVerificationPage/Page_ProHance AI - Retention Risk/button_Login'))
+WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/RRI_DI_ModuleVerificationPage/Page_ProHance AI - Retention Risk/button_Update Organization'))
 
-WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/RRI_ModuleVerificationPage/Page_ProHance AI - Retention Risk/div_Organization updated successfully'))
+WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/RRI_DI_ModuleVerificationPage/Page_ProHance AI - Retention Risk/div_Organization updated successfully'))
 
-//WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/RRI_ModuleVerificationPage/Page_ProHance AI - Retention Risk/path'))
+//WebUI.click(findTestObject('Object Repository/RRI_Inside_Organization/DisEngagement/RRI_DI_ModuleVerificationPage/Page_ProHance AI - Retention Risk/path'))
 
 TestObject orgName = new TestObject('orgName')
+orgName.addProperty(
+	'xpath',
+	ConditionType.EQUALS,
+	"//div[contains(text(),'${orgNameText}')]/./../../div[2]/div"
+)
 
 orgName.addProperty('xpath', com.kms.katalon.core.testobject.ConditionType.EQUALS, '//div[contains(text(),"JAMTEC")]/./../../div[2]/div')
 

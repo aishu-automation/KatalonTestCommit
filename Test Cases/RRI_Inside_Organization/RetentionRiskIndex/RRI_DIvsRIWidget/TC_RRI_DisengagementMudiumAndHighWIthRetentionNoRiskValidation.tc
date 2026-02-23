@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RRI_DisengagementMudiumAndHighWIthRetentionNoRiskValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ba9f80f0-8c1e-4110-aabe-7afe77050f48</testCaseGuid>
+</TestCaseEntity>

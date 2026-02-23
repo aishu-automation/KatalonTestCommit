@@ -10,77 +10,91 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook
 
 class ExcelUtil {
 
-	/**
-	 * Get the most recently modified file from a folder with optional extension filter
-	 * @param folderPath Path to the folder
-	 * @param extension File extension filter, e.g. "xlsx" (optional)
-	 * @return File object of the most recent file
-	 */
 	static File getMostRecentFile(String folderPath, String extension = null, int timeoutSeconds = 30) {
-
-    File dir = new File(folderPath)
-    if (!dir.exists() || !dir.isDirectory()) {
-        throw new RuntimeException("Folder does not exist: " + folderPath)
-    }
-
-    // ---------- WAIT UNTIL CHROME FINISHES DOWNLOAD ----------
-    int wait = 0
-    while (wait < timeoutSeconds) {
-        boolean downloading = dir.listFiles()?.any { it.name.endsWith(".crdownload") }
-        if (!downloading) break
-        Thread.sleep(1000)
-        wait++
-    }
-
-    // ---------- FILTER FILES ----------
-    File[] files = dir.listFiles()?.findAll { File f ->
-        (!extension || f.name.toLowerCase().endsWith(extension.toLowerCase())) &&
-        !f.name.endsWith(".crdownload") &&
-        !f.name.startsWith("~\$")           // temp Excel files
-    } as File[]
-
-    if (!files || files.length == 0) {
-        throw new RuntimeException(
-            "No files" + (extension ? " with extension '${extension}'" : "") +
-            " found in folder: " + folderPath
-        )
-    }
-
-    // ---------- SORT BY LAST MODIFIED ----------
-    files.sort { b, a -> a.lastModified() <=> b.lastModified() }
-    File latestFile = files[0]
-
-    // ---------- WAIT UNTIL FILE SIZE STABILIZES ----------
-    long previousSize = -1
-    long currentSize = latestFile.length()
-    int waited = 0
-
-    while (previousSize != currentSize) {
-        if (waited >= timeoutSeconds) {
-            throw new RuntimeException(
-                "File not fully ready after ${timeoutSeconds} seconds: ${latestFile.name}"
-            )
-        }
-        previousSize = currentSize
-        Thread.sleep(1000)
-        waited++
-        currentSize = latestFile.length()
-    }
-
-    // ---------- COPY FILE TO A SAFE WORKING FILE ----------
-    File workingFile = new File(
-        latestFile.parent + File.separator + "working_" + latestFile.name
-    )
-
-    java.nio.file.Files.copy(
-        latestFile.toPath(),
-        workingFile.toPath(),
-        java.nio.file.StandardCopyOption.REPLACE_EXISTING
-    )
-
-    return workingFile
-}
-
+		
+			File folder = new File(folderPath)
+		
+			if (!folder.exists() || !folder.isDirectory()) {
+				throw new RuntimeException("Folder does not exist: " + folderPath)
+			}
+		
+			// ---------- WAIT UNTIL CHROME FINISHES DOWNLOAD ----------
+			int waitedSeconds = 0
+			while (waitedSeconds < timeoutSeconds) {
+		
+				File[] currentFiles = folder.listFiles()
+		
+				boolean downloading = currentFiles?.any { file ->
+					file.name.endsWith(".crdownload")
+				}
+		
+				if (!downloading) {
+					break
+				}
+		
+				Thread.sleep(1000)
+				waitedSeconds++
+			}
+		
+			// ---------- FILTER VALID FILES ----------
+			List<File> validFiles = folder.listFiles()?.findAll { File file ->
+		
+				boolean matchesExtension = (!extension ||
+						file.name.toLowerCase().endsWith(extension.toLowerCase()))
+		
+				boolean notTempFile = !file.name.endsWith(".crdownload") &&
+									  !file.name.startsWith("~\$")
+		
+				return file.isFile() && matchesExtension && notTempFile
+			}
+		
+			if (!validFiles || validFiles.isEmpty()) {
+				throw new RuntimeException(
+					"No files" + (extension ? " with extension '${extension}'" : "") +
+					" found in folder: " + folderPath
+				)
+			}
+		
+			// ---------- SORT BY LAST MODIFIED (DESCENDING) ----------
+			validFiles.sort { f1, f2 ->
+				f2.lastModified() <=> f1.lastModified()
+			}
+		
+			File latestFile = validFiles.first()
+		
+			// ---------- WAIT UNTIL FILE SIZE STABILIZES ----------
+			long previousSize = -1
+			long currentSize = latestFile.length()
+			int sizeWait = 0
+		
+			while (previousSize != currentSize) {
+		
+				if (sizeWait >= timeoutSeconds) {
+					throw new RuntimeException(
+						"File not fully ready after ${timeoutSeconds} seconds: ${latestFile.name}"
+					)
+				}
+		
+				previousSize = currentSize
+				Thread.sleep(1000)
+				sizeWait++
+				currentSize = latestFile.length()
+			}
+		
+			// ---------- COPY FILE TO WORKING FILE ----------
+			File workingFile = new File(
+				latestFile.parent + File.separator + "working_" + latestFile.name
+			)
+		
+			java.nio.file.Files.copy(
+				latestFile.toPath(),
+				workingFile.toPath(),
+				java.nio.file.StandardCopyOption.REPLACE_EXISTING
+			)
+		
+			return workingFile
+		}
+		
 
 	/**
 	 * Reads a column from Excel and returns it as a List<String>

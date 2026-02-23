@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_FILTER BYDisengagementHighMediumLowRete_176178</name>
+   <tag></tag>
+   <elementGuidId>737d8927-ccb9-460f-b375-ad62191dbf45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/aside/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.filter-section</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;FILTER BY:DisengagementHighMediumLowRetention RiskAt RiskNo RiskAll GroupsResetF&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f8391139-a907-4b88-aa94-4fd45b6864a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>filter-section</value>
+      <webElementGuid>f65a5fe1-7d26-47ec-b6bf-bd4f468d5ae6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>FILTER BY:DisengagementHighMediumLowRetention RiskAt RiskNo RiskAll GroupsResetFetch</value>
+      <webElementGuid>1554c7ec-eb2c-4180-8e56-6e3772dfa69d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;layout-root MuiBox-root css-0&quot;]/main[@class=&quot;main-content MuiBox-root css-19toco3&quot;]/div[@class=&quot;drilldown-container&quot;]/aside[@class=&quot;sidebar&quot;]/div[@class=&quot;filter-section&quot;]</value>
+      <webElementGuid>1712752f-45a7-4bcb-8151-fe8cd48a83cd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/aside/div</value>
+      <webElementGuid>b0927328-6498-481a-ac0a-6fec86c49809</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employees'])[1]/following::div[1]</value>
+      <webElementGuid>f4719519-37fc-43ad-a23d-791f7d7fd3b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Record'])[1]/following::div[1]</value>
+      <webElementGuid>dcc49719-9935-4fa5-a70b-1cd32e073457</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside/div</value>
+      <webElementGuid>ff7b60c1-0b5f-4969-8ee4-59ab8415d0df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'FILTER BY:DisengagementHighMediumLowRetention RiskAt RiskNo RiskAll GroupsResetFetch' or . = 'FILTER BY:DisengagementHighMediumLowRetention RiskAt RiskNo RiskAll GroupsResetFetch')]</value>
+      <webElementGuid>19317b34-0292-42ba-97a7-c8f3541ceb5a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

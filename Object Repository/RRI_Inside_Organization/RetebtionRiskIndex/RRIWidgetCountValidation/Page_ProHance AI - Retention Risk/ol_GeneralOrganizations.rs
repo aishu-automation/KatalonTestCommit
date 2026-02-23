@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ol_GeneralOrganizations</name>
+   <tag></tag>
+   <elementGuidId>0156638c-df1d-4ed4-8884-ca4050801380</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ol.MuiBreadcrumbs-ol.css-51eq8m</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/div/nav/ol</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ol</value>
+      <webElementGuid>d8a48362-92a1-4a91-b9b8-a696a9a71602</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiBreadcrumbs-ol css-51eq8m</value>
+      <webElementGuid>4f275ab3-bc88-4925-8abb-bec04c12e8a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>General›Organizations</value>
+      <webElementGuid>60c67c09-1085-4284-bf11-0c568a71624c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;layout-root MuiBox-root css-0&quot;]/main[@class=&quot;main-content MuiBox-root css-5o906h&quot;]/div[@class=&quot;organization-details&quot;]/div[@class=&quot;MuiBox-root css-1y8uf5e&quot;]/nav[@class=&quot;MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-o09oid&quot;]/ol[@class=&quot;MuiBreadcrumbs-ol css-51eq8m&quot;]</value>
+      <webElementGuid>a0575391-32f5-4dd1-8bc8-82101c1630f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/div/nav/ol</value>
+      <webElementGuid>171d7ed2-4894-477f-883f-602a8caefca7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIDEBAR MENU'])[1]/following::ol[1]</value>
+      <webElementGuid>3342f456-dec3-41a2-9e6e-505810601852</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AI'])[1]/following::ol[1]</value>
+      <webElementGuid>75c5e743-41eb-4414-8e11-c5ae7d3ff536</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD NEW'])[1]/preceding::ol[1]</value>
+      <webElementGuid>bcfb2ebf-fe33-40c8-9f75-b8c40870e981</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ol</value>
+      <webElementGuid>b062b6eb-90e6-424f-b611-d0cf82f9cf4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ol[(text() = 'General›Organizations' or . = 'General›Organizations')]</value>
+      <webElementGuid>d7ec9b72-a768-43db-b9f5-1ef51907abfb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

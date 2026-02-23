@@ -21,42 +21,42 @@ import com.kms.katalon.core.testobject.ConditionType
 
 WebUI.callTestCase(findTestCase('Common/LoginPageTestCase'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/i_ADMIN_fa fa-chevron-right icon-white'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/li_Work Template'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/label_ADD NEW'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/input__name'), 'add')
+WebUI.setText(findTestObject('null'), 'add')
 
-WebUI.setText(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/textarea_Description_description'), 'dddd')
+WebUI.setText(findTestObject('null'), 'dddd')
 
-WebUI.click(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/button_SAVE'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/span_Work Template add added successfully'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/a_'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/label_BACK'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/input_Search_form-control input-sm'), 
+WebUI.setText(findTestObject('null'), 
     'add')
 
-WebUI.click(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/i_Teams_fa fa-pencil-square-o fa-lg pointer'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/input__name'), 'add_Mod')
+WebUI.setText(findTestObject('null'), 'add_Mod')
 
-WebUI.click(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/button_SAVE'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/span_Work Template add_Mod modified successfully'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/span_Work Template add_Mod modified successfully_1'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/a_'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/label_BACK'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/TC_WorkTemplateCRUD/Page_ProHance/input_Search_form-control input-sm'), 
+WebUI.setText(findTestObject('null'), 
     'add_Mod')
 
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI

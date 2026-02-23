@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-RI-OverallSummaryNoRiskValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0708a8cd-fba8-48bc-9395-ba9c48baa796</testCaseGuid>
+</TestCaseEntity>

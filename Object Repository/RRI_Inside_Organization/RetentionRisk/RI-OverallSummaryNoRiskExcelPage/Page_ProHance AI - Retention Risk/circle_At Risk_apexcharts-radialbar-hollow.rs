@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>circle_At Risk_apexcharts-radialbar-hollow</name>
+   <tag></tag>
+   <elementGuidId>4ff8639c-97b7-4fe2-a7d8-78e50f4b2acc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#apexcharts5js5tg9l > svg.apexcharts-svg > g.apexcharts-inner.apexcharts-graphical > g.apexcharts-radialbar > g > g:nth-of-type(2) > circle.apexcharts-radialbar-hollow</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>circle</value>
+      <webElementGuid>0521a526-c811-4c4e-8b91-7e8a9e5c57ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>r</name>
+      <type>Main</type>
+      <value>30.168597560975613</value>
+      <webElementGuid>b8ce8b74-8c90-4061-99c7-930947178b60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cx</name>
+      <type>Main</type>
+      <value>47.5</value>
+      <webElementGuid>66ff09ca-9ae8-477d-9a9c-8b5c44f2c8f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cy</name>
+      <type>Main</type>
+      <value>47.5</value>
+      <webElementGuid>7d9440e5-5946-4176-928b-9f7128892d21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>apexcharts-radialbar-hollow</value>
+      <webElementGuid>7ff496a7-b863-434c-9905-c053b49af474</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>transparent</value>
+      <webElementGuid>74455695-025d-4405-aca6-43f963c9ba1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;apexcharts5js5tg9l&quot;)/svg[@class=&quot;apexcharts-svg&quot;]/g[@class=&quot;apexcharts-inner apexcharts-graphical&quot;]/g[@class=&quot;apexcharts-radialbar&quot;]/g[1]/g[2]/circle[@class=&quot;apexcharts-radialbar-hollow&quot;]</value>
+      <webElementGuid>86a3aaed-bffe-481d-8be5-52b45a7fea52</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RI_BarChartOverallDrilldownValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42ec39be-98eb-4990-a64a-e7faa6c7e69d</testCaseGuid>
+</TestCaseEntity>

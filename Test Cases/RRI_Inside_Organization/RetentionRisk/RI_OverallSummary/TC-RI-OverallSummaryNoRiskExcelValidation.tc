@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-RI-OverallSummaryNoRiskExcelValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a6c8a0c3-ccb1-4bdb-a667-dcc4a5fab257</testCaseGuid>
+</TestCaseEntity>

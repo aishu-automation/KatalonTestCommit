@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RRI_LongTermFilterByDisengagementLabelValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>984f92c2-5fcb-4bf0-8cf1-eafc58bb9f7b</testCaseGuid>
+</TestCaseEntity>

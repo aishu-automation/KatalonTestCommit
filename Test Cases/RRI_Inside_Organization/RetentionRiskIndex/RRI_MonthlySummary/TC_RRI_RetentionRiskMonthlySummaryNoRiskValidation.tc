@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RRI_RetentionRiskMonthlySummaryNoRiskValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b640b5a7-ff7e-4027-b475-96e1aa3af506</testCaseGuid>
+</TestCaseEntity>

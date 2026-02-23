@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Retention Risk_fa fa-star widget-star-icon (1)</name>
+   <tag></tag>
+   <elementGuidId>0b65ae37-83bc-40b5-8f8c-dcdc1cb30988</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/div[2]/div/div[2]/div/div/div/div/div/div/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-star.widget-star-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=main >> i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>aa746372-4365-4b86-84a2-02c9933adccd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-star widget-star-icon</value>
+      <webElementGuid>210707ac-b086-4436-a226-bd95609b671d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;layout-root MuiBox-root css-0&quot;]/main[@class=&quot;main-content MuiBox-root css-19toco3&quot;]/div[@class=&quot;dashboard&quot;]/div[@class=&quot;dashboard-container&quot;]/div[@class=&quot;dashboard-grid&quot;]/div[@class=&quot;ant-row dashboard-row css-mncuj7&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-md-8 ant-col-lg-5 css-mncuj7&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 dashboard-card-1 widget4-container css-110i50s&quot;]/div[@class=&quot;third-row-chart-title&quot;]/div[1]/div[1]/div[@class=&quot;subtitle&quot;]/i[@class=&quot;fa fa-star widget-star-icon&quot;]</value>
+      <webElementGuid>8e41ae3b-38f4-457f-a1c5-92ed3b327f98</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/div[2]/div/div[2]/div/div/div/div/div/div/i</value>
+      <webElementGuid>94145c58-dad5-41eb-b8b4-b76c9df90263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/i</value>
+      <webElementGuid>ef9db017-9763-4a9d-8b39-234793bcf81a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

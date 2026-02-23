@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tc_DisengagementWidgetCountValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>68af82d2-8e2f-4255-acae-ca7ed572ec04</testCaseGuid>
+</TestCaseEntity>

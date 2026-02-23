@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RRI_RetentionRiskOverallSummaryNoRiskValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ef5434f4-1046-4de4-878f-70e33c6b5937</testCaseGuid>
+</TestCaseEntity>
